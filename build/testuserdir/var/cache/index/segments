@@ -1,4 +1,4 @@
-#Tue Apr 09 09:56:05 PDT 2013
+#Fri Aug 12 18:23:47 EDT 2016
 s5=jar\:file\:/C\:/Program%20Files%20(x86)/Java/jdk1.7.0_05/jre/lib/jsse.jar\!/
 s4=jar\:file\:/C\:/Program%20Files%20(x86)/Java/jdk1.7.0_05/jre/lib/sunrsasign.jar\!/
 s3=jar\:file\:/C\:/Program%20Files%20(x86)/Java/jdk1.7.0_05/jre/lib/rt.jar\!/
@@ -14,6 +14,11 @@ s13=jar\:file\:/C\:/Program%20Files%20(x86)/Java/jdk1.7.0_05/jre/lib/ext/sunjce_
 s12=jar\:file\:/C\:/Program%20Files%20(x86)/Java/jdk1.7.0_05/jre/lib/ext/sunec.jar\!/
 s11=jar\:file\:/C\:/Program%20Files%20(x86)/Java/jdk1.7.0_05/jre/lib/ext/localedata.jar\!/
 s10=jar\:file\:/C\:/Program%20Files%20(x86)/Java/jdk1.7.0_05/jre/lib/ext/dnsns.jar\!/
+s29=jar\:file\:/C\:/Program%20Files/NetBeans%208.1/ide/jsstubs/reststubs.zip\!/
+s28=jar\:file\:/C\:/Program%20Files/NetBeans%208.1/ide/jsstubs/corestubs.zip\!/
+s27=file\:/C\:/Program%20Files/NetBeans%208.1/php/phpstubs/phpruntime/
+s26=file\:/C\:/Users/Bjellz/Documents/NetBeansProjects/PhpProject1/
+s25=jar\:file\:/C\:/Program%20Files/NetBeans%208.1/ide/jsstubs/domstubs.zip\!/
 s24=file\:/C\:/Users/Bill/Documents/NetBeansProjects/PhpProject/
 s23=file\:/C\:/Users/Bill/Documents/NetBeansProjects/PhpProject2/
 s22=file\:/C\:/Users/Bill-Laptop/Documents/NetBeansProjects/PhpProject1/

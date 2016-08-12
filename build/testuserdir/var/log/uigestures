@@ -1,130 +1,1640 @@
 <record>
-  <date>2013-04-27T22:02:38</date>
-  <millis>1367114558750</millis>
-  <sequence>82</sequence>
-  <level>FINEST</level>
-  <thread>14</thread>
+  <date>2016-08-12T18:08:29</date>
+  <millis>1471039709390</millis>
+  <sequence>96</sequence>
+  <level>300</level>
+  <thread>15</thread>
   <message>SCREEN SIZE</message>
-  <param>1366</param>
-  <param>768</param>
-  <param>1</param>
+  <param>1920</param>
+  <param>1080</param>
+  <param>3</param>
 </record>
 <record>
-  <date>2013-04-27T22:02:38</date>
-  <millis>1367114558750</millis>
-  <sequence>83</sequence>
-  <level>CONFIG</level>
-  <thread>14</thread>
+  <date>2016-08-12T18:08:29</date>
+  <millis>1471039709391</millis>
+  <sequence>97</sequence>
+  <level>700</level>
+  <thread>15</thread>
   <message>IDE_STARTUP</message>
 </record>
 <record>
-  <date>2013-04-27T22:02:56</date>
-  <millis>1367114576491</millis>
-  <sequence>144</sequence>
-  <logger>org.netbeans.ui.metrics.php</logger>
-  <level>INFO</level>
-  <thread>35</thread>
-  <message>USG_PROJECT_OPEN_PHP</message>
-  <key>USG_PROJECT_OPEN_PHP</key>
-  <catalog>org.netbeans.modules.php.project.Bundle</catalog>
-  <param></param>
+  <date>2016-08-12T18:08:31</date>
+  <millis>1471039711831</millis>
+  <sequence>125</sequence>
+  <logger>org.netbeans.ui.metrics.laf</logger>
+  <level>800</level>
+  <thread>15</thread>
+  <message>USG_LOOK_AND_FEEL</message>
+  <param>Windows</param>
+  <param>Windows</param>
 </record>
 <record>
-  <date>2013-04-27T22:02:58</date>
-  <millis>1367114578145</millis>
-  <sequence>145</sequence>
+  <date>2016-08-12T18:08:34</date>
+  <millis>1471039714601</millis>
+  <sequence>153</sequence>
+  <logger>org.netbeans.core.windows.persistence</logger>
+  <level>800</level>
+  <thread>37</thread>
+  <message>[PersistenceManager.getTopComponentForID] Problem when deserializing TopComponent for tcID:'MultiView-php#002Esou6DA18E8Fxt#002Ehistory#007C_1'. Reason:  Object not found: C:\Users\Bill\Documents\NetBeansProjects\PhpProject\index.php@5951a0c:34f9e7df[invalid]. It was probably deleted.</message>
+  <exception>
+    <message>org.openide.loaders.DataObjectNotFoundException: C:\Users\Bill\Documents\NetBeansProjects\PhpProject\index.php@5951a0c:34f9e7df[invalid]</message>
+    <frame>
+      <class>org.openide.loaders.DataObject</class>
+      <method>find</method>
+      <line>635</line>
+      <file>${netbeans.home}modules/org-openide-loaders.jar</file>
+    </frame>
+    <frame>
+      <class>org.openide.loaders.DataObject$Replace</class>
+      <method>readObject</method>
+      <line>1271</line>
+      <file>${netbeans.home}modules/org-openide-loaders.jar</file>
+    </frame>
+    <frame>
+      <class>sun.reflect.NativeMethodAccessorImpl</class>
+      <method>invoke0</method>
+      <file>${java.home}lib/rt.jar</file>
+    </frame>
+    <frame>
+      <class>sun.reflect.NativeMethodAccessorImpl</class>
+      <method>invoke</method>
+      <line>62</line>
+      <file>${java.home}lib/rt.jar</file>
+    </frame>
+    <frame>
+      <class>sun.reflect.DelegatingMethodAccessorImpl</class>
+      <method>invoke</method>
+      <line>43</line>
+      <file>${java.home}lib/rt.jar</file>
+    </frame>
+    <frame>
+      <class>java.lang.reflect.Method</class>
+      <method>invoke</method>
+      <line>498</line>
+      <file>${java.home}lib/rt.jar</file>
+    </frame>
+    <frame>
+      <class>java.io.ObjectStreamClass</class>
+      <method>invokeReadObject</method>
+      <line>1058</line>
+      <file>${java.home}lib/rt.jar</file>
+    </frame>
+    <frame>
+      <class>java.io.ObjectInputStream</class>
+      <method>readSerialData</method>
+      <line>1909</line>
+      <file>${java.home}lib/rt.jar</file>
+    </frame>
+    <frame>
+      <class>java.io.ObjectInputStream</class>
+      <method>readOrdinaryObject</method>
+      <line>1808</line>
+      <file>${java.home}lib/rt.jar</file>
+    </frame>
+    <frame>
+      <class>java.io.ObjectInputStream</class>
+      <method>readObject0</method>
+      <line>1353</line>
+      <file>${java.home}lib/rt.jar</file>
+    </frame>
+    <frame>
+      <class>java.io.ObjectInputStream</class>
+      <method>defaultReadFields</method>
+      <line>2018</line>
+      <file>${java.home}lib/rt.jar</file>
+    </frame>
+    <frame>
+      <class>java.io.ObjectInputStream</class>
+      <method>defaultReadObject</method>
+      <line>503</line>
+      <file>${java.home}lib/rt.jar</file>
+    </frame>
+    <frame>
+      <class>org.openide.loaders.OpenSupport$Env</class>
+      <method>readObject</method>
+      <line>169</line>
+      <file>${netbeans.home}modules/org-openide-loaders.jar</file>
+    </frame>
+    <frame>
+      <class>sun.reflect.NativeMethodAccessorImpl</class>
+      <method>invoke0</method>
+      <file>${java.home}lib/rt.jar</file>
+    </frame>
+    <frame>
+      <class>sun.reflect.NativeMethodAccessorImpl</class>
+      <method>invoke</method>
+      <line>62</line>
+      <file>${java.home}lib/rt.jar</file>
+    </frame>
+    <frame>
+      <class>sun.reflect.DelegatingMethodAccessorImpl</class>
+      <method>invoke</method>
+      <line>43</line>
+      <file>${java.home}lib/rt.jar</file>
+    </frame>
+    <frame>
+      <class>java.lang.reflect.Method</class>
+      <method>invoke</method>
+      <line>498</line>
+      <file>${java.home}lib/rt.jar</file>
+    </frame>
+    <frame>
+      <class>java.io.ObjectStreamClass</class>
+      <method>invokeReadObject</method>
+      <line>1058</line>
+      <file>${java.home}lib/rt.jar</file>
+    </frame>
+    <frame>
+      <class>java.io.ObjectInputStream</class>
+      <method>readSerialData</method>
+      <line>1909</line>
+      <file>${java.home}lib/rt.jar</file>
+    </frame>
+    <frame>
+      <class>java.io.ObjectInputStream</class>
+      <method>readOrdinaryObject</method>
+      <line>1808</line>
+      <file>${java.home}lib/rt.jar</file>
+    </frame>
+    <frame>
+      <class>java.io.ObjectInputStream</class>
+      <method>readObject0</method>
+      <line>1353</line>
+      <file>${java.home}lib/rt.jar</file>
+    </frame>
+    <frame>
+      <class>java.io.ObjectInputStream</class>
+      <method>defaultReadFields</method>
+      <line>2018</line>
+      <file>${java.home}lib/rt.jar</file>
+    </frame>
+    <frame>
+      <class>java.io.ObjectInputStream</class>
+      <method>readSerialData</method>
+      <line>1942</line>
+      <file>${java.home}lib/rt.jar</file>
+    </frame>
+    <frame>
+      <class>java.io.ObjectInputStream</class>
+      <method>readOrdinaryObject</method>
+      <line>1808</line>
+      <file>${java.home}lib/rt.jar</file>
+    </frame>
+    <frame>
+      <class>java.io.ObjectInputStream</class>
+      <method>readObject0</method>
+      <line>1353</line>
+      <file>${java.home}lib/rt.jar</file>
+    </frame>
+    <frame>
+      <class>java.io.ObjectInputStream</class>
+      <method>readObject</method>
+      <line>373</line>
+      <file>${java.home}lib/rt.jar</file>
+    </frame>
+    <frame>
+      <class>org.openide.windows.CloneableTopComponent</class>
+      <method>readExternal</method>
+      <line>254</line>
+      <file>${netbeans.home}modules/org-openide-windows.jar</file>
+    </frame>
+    <frame>
+      <class>org.netbeans.core.multiview.MultiViewCloneableTopComponent</class>
+      <method>readExternal</method>
+      <line>275</line>
+      <file>${netbeans.home}modules/org-netbeans-core-multiview.jar</file>
+    </frame>
+    <frame>
+      <class>org.openide.windows.TopComponent$Replacer</class>
+      <method>readObject</method>
+      <line>1859</line>
+      <file>${netbeans.home}modules/org-openide-windows.jar</file>
+    </frame>
+    <frame>
+      <class>sun.reflect.NativeMethodAccessorImpl</class>
+      <method>invoke0</method>
+      <file>${java.home}lib/rt.jar</file>
+    </frame>
+    <frame>
+      <class>sun.reflect.NativeMethodAccessorImpl</class>
+      <method>invoke</method>
+      <line>62</line>
+      <file>${java.home}lib/rt.jar</file>
+    </frame>
+    <frame>
+      <class>sun.reflect.DelegatingMethodAccessorImpl</class>
+      <method>invoke</method>
+      <line>43</line>
+      <file>${java.home}lib/rt.jar</file>
+    </frame>
+    <frame>
+      <class>java.lang.reflect.Method</class>
+      <method>invoke</method>
+      <line>498</line>
+      <file>${java.home}lib/rt.jar</file>
+    </frame>
+    <frame>
+      <class>java.io.ObjectStreamClass</class>
+      <method>invokeReadObject</method>
+      <line>1058</line>
+      <file>${java.home}lib/rt.jar</file>
+    </frame>
+    <frame>
+      <class>java.io.ObjectInputStream</class>
+      <method>readSerialData</method>
+      <line>1909</line>
+      <file>${java.home}lib/rt.jar</file>
+    </frame>
+    <frame>
+      <class>java.io.ObjectInputStream</class>
+      <method>readOrdinaryObject</method>
+      <line>1808</line>
+      <file>${java.home}lib/rt.jar</file>
+    </frame>
+    <frame>
+      <class>java.io.ObjectInputStream</class>
+      <method>readObject0</method>
+      <line>1353</line>
+      <file>${java.home}lib/rt.jar</file>
+    </frame>
+    <frame>
+      <class>java.io.ObjectInputStream</class>
+      <method>readObject</method>
+      <line>373</line>
+      <file>${java.home}lib/rt.jar</file>
+    </frame>
+    <frame>
+      <class>org.netbeans.modules.settings.convertors.XMLSettingsSupport$SettingsRecognizer</class>
+      <method>readSerial</method>
+      <line>571</line>
+      <file>${netbeans.home}modules/org-netbeans-modules-settings.jar</file>
+    </frame>
+    <frame>
+      <class>org.netbeans.modules.settings.convertors.XMLSettingsSupport$SettingsRecognizer</class>
+      <method>instanceCreate</method>
+      <line>603</line>
+      <file>${netbeans.home}modules/org-netbeans-modules-settings.jar</file>
+    </frame>
+    <frame>
+      <class>org.netbeans.modules.settings.convertors.SerialDataConvertor$SettingsInstance</class>
+      <method>instanceCreate</method>
+      <line>426</line>
+      <file>${netbeans.home}modules/org-netbeans-modules-settings.jar</file>
+    </frame>
+    <frame>
+      <class>org.netbeans.core.windows.persistence.PersistenceManager</class>
+      <method>getTopComponentPersistentForID</method>
+      <line>571</line>
+      <file>${netbeans.home}modules/org-netbeans-core-windows.jar</file>
+    </frame>
+    <frame>
+      <class>org.netbeans.core.windows.persistence.PersistenceManager</class>
+      <method>getTopComponentForID</method>
+      <line>681</line>
+      <file>${netbeans.home}modules/org-netbeans-core-windows.jar</file>
+    </frame>
+    <frame>
+      <class>org.netbeans.core.windows.PersistenceHandler</class>
+      <method>getTopComponentForID</method>
+      <line>478</line>
+      <file>${netbeans.home}modules/org-netbeans-core-windows.jar</file>
+    </frame>
+    <frame>
+      <class>org.netbeans.core.windows.LazyLoader</class>
+      <method>loadNow</method>
+      <line>158</line>
+      <file>${netbeans.home}modules/org-netbeans-core-windows.jar</file>
+    </frame>
+    <frame>
+      <class>org.netbeans.core.windows.LazyLoader</class>
+      <method>access$400</method>
+      <line>62</line>
+      <file>${netbeans.home}modules/org-netbeans-core-windows.jar</file>
+    </frame>
+    <frame>
+      <class>org.netbeans.core.windows.LazyLoader$2</class>
+      <method>run</method>
+      <line>129</line>
+      <file>${netbeans.home}modules/org-netbeans-core-windows.jar</file>
+    </frame>
+    <frame>
+      <class>java.awt.event.InvocationEvent</class>
+      <method>dispatch</method>
+      <line>311</line>
+      <file>${java.home}lib/rt.jar</file>
+    </frame>
+    <frame>
+      <class>java.awt.EventQueue</class>
+      <method>dispatchEventImpl</method>
+      <line>756</line>
+      <file>${java.home}lib/rt.jar</file>
+    </frame>
+    <frame>
+      <class>java.awt.EventQueue</class>
+      <method>access$500</method>
+      <line>97</line>
+      <file>${java.home}lib/rt.jar</file>
+    </frame>
+    <frame>
+      <class>java.awt.EventQueue$3</class>
+      <method>run</method>
+      <line>709</line>
+      <file>${java.home}lib/rt.jar</file>
+    </frame>
+    <frame>
+      <class>java.awt.EventQueue$3</class>
+      <method>run</method>
+      <line>703</line>
+      <file>${java.home}lib/rt.jar</file>
+    </frame>
+    <frame>
+      <class>java.security.AccessController</class>
+      <method>doPrivileged</method>
+      <file>${java.home}lib/rt.jar</file>
+    </frame>
+    <frame>
+      <class>java.security.ProtectionDomain$JavaSecurityAccessImpl</class>
+      <method>doIntersectionPrivilege</method>
+      <line>76</line>
+      <file>${java.home}lib/rt.jar</file>
+    </frame>
+    <frame>
+      <class>java.awt.EventQueue</class>
+      <method>dispatchEvent</method>
+      <line>726</line>
+      <file>${java.home}lib/rt.jar</file>
+    </frame>
+    <frame>
+      <class>org.netbeans.core.TimableEventQueue</class>
+      <method>dispatchEvent</method>
+      <line>159</line>
+      <file>${netbeans.home}modules/org-netbeans-core.jar</file>
+    </frame>
+    <frame>
+      <class>java.awt.EventDispatchThread</class>
+      <method>pumpOneEventForFilters</method>
+      <line>201</line>
+      <file>${java.home}lib/rt.jar</file>
+    </frame>
+    <frame>
+      <class>java.awt.EventDispatchThread</class>
+      <method>pumpEventsForFilter</method>
+      <line>116</line>
+      <file>${java.home}lib/rt.jar</file>
+    </frame>
+    <frame>
+      <class>java.awt.EventDispatchThread</class>
+      <method>pumpEventsForHierarchy</method>
+      <line>105</line>
+      <file>${java.home}lib/rt.jar</file>
+    </frame>
+    <frame>
+      <class>java.awt.EventDispatchThread</class>
+      <method>pumpEvents</method>
+      <line>101</line>
+      <file>${java.home}lib/rt.jar</file>
+    </frame>
+    <frame>
+      <class>java.awt.EventDispatchThread</class>
+      <method>pumpEvents</method>
+      <line>93</line>
+      <file>${java.home}lib/rt.jar</file>
+    </frame>
+    <frame>
+      <class>java.awt.EventDispatchThread</class>
+      <method>run</method>
+      <line>82</line>
+      <file>${java.home}lib/rt.jar</file>
+    </frame>
+  </exception>
+  <exception>
+   <message>org.openide.filesystems.FileStateInvalidException: C:\Users\Bill\Documents\NetBeansProjects\PhpProject\index.php@5951a0c:34f9e7df[invalid]</message>
+    <frame>
+      <class>org.openide.loaders.DataObject</class>
+      <method>find</method>
+      <line>612</line>
+      <file>${netbeans.home}modules/org-openide-loaders.jar</file>
+    </frame>
+   <more>61</more>
+  </exception>
+  <exception>
+   <message></message>
+   <more>0</more>
+  </exception>
+</record>
+<record>
+  <date>2016-08-12T18:08:34</date>
+  <millis>1471039714735</millis>
+  <sequence>155</sequence>
   <logger>org.netbeans.ui.projects</logger>
-  <level>CONFIG</level>
-  <thread>35</thread>
-  <message>UI_INIT_PROJECTS</message>
-  <key>UI_INIT_PROJECTS</key>
+  <level>700</level>
+  <thread>22</thread>
+  <message>UI_CLOSED_PROJECTS</message>
+  <key>UI_CLOSED_PROJECTS</key>
   <catalog>org.netbeans.modules.project.ui.Bundle</catalog>
-  <param>org.netbeans.modules.php.project.PhpProject</param>
-  <param>PhpProject</param>
+  <param>org.netbeans.modules.project.ui.LazyProject</param>
+  <param>LazyProject</param>
   <param>1</param>
 </record>
 <record>
-  <date>2013-04-27T22:02:58</date>
-  <millis>1367114578147</millis>
-  <sequence>146</sequence>
+  <date>2016-08-12T18:08:34</date>
+  <millis>1471039714735</millis>
+  <sequence>156</sequence>
   <logger>org.netbeans.ui.metrics.projects</logger>
-  <level>INFO</level>
-  <thread>35</thread>
-  <message>USG_PROJECT_OPEN</message>
-  <param>org.netbeans.modules.php.project.PhpProject</param>
+  <level>800</level>
+  <thread>22</thread>
+  <message>USG_PROJECT_CLOSE</message>
+  <param>org.netbeans.modules.project.ui.LazyProject</param>
 </record>
 <record>
-  <date>2013-04-27T22:02:58</date>
-  <millis>1367114578417</millis>
-  <sequence>147</sequence>
+  <date>2016-08-12T18:08:35</date>
+  <millis>1471039715924</millis>
+  <sequence>158</sequence>
   <logger>org.netbeans.ui.indexing</logger>
-  <level>INFO</level>
-  <thread>13</thread>
+  <level>800</level>
+  <thread>34</thread>
   <message>INDEXING_STARTED</message>
   <key>INDEXING_STARTED</key>
   <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
   <param>0</param>
 </record>
 <record>
-  <date>2013-04-27T22:02:59</date>
-  <millis>1367114579031</millis>
-  <sequence>150</sequence>
-  <level>INFO</level>
-  <thread>28</thread>
-  <message>MEMORY</message>
-  <key>MEMORY</key>
-  <catalog>&lt;null&gt;</catalog>
-  <param>3726909440</param>
-</record>
-<record>
-  <date>2013-04-27T22:03:03</date>
-  <millis>1367114583379</millis>
-  <sequence>152</sequence>
+  <date>2016-08-12T18:08:35</date>
+  <millis>1471039715973</millis>
+  <sequence>162</sequence>
   <logger>org.netbeans.ui.indexing</logger>
-  <level>INFO</level>
-  <thread>13</thread>
+  <level>800</level>
+  <thread>34</thread>
   <message>INDEXING_FINISHED</message>
   <key>INDEXING_FINISHED</key>
   <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
-  <param>4959</param>
+  <param>47</param>
 </record>
 <record>
-  <date>2013-04-27T22:03:03</date>
-  <millis>1367114583380</millis>
-  <sequence>153</sequence>
+  <date>2016-08-12T18:08:35</date>
+  <millis>1471039715975</millis>
+  <sequence>163</sequence>
   <logger>org.netbeans.ui.indexing</logger>
-  <level>INFO</level>
-  <thread>13</thread>
+  <level>800</level>
+  <thread>34</thread>
+  <message>INDEXING_STARTED</message>
+  <key>INDEXING_STARTED</key>
+  <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
+  <param>2</param>
+</record>
+<record>
+  <date>2016-08-12T18:08:35</date>
+  <millis>1471039715975</millis>
+  <sequence>164</sequence>
+  <logger>org.netbeans.ui.indexing</logger>
+  <level>800</level>
+  <thread>34</thread>
+  <message>INDEXING_FINISHED</message>
+  <key>INDEXING_FINISHED</key>
+  <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
+  <param>0</param>
+</record>
+<record>
+  <date>2016-08-12T18:08:35</date>
+  <millis>1471039715976</millis>
+  <sequence>165</sequence>
+  <logger>org.netbeans.ui.indexing</logger>
+  <level>800</level>
+  <thread>34</thread>
   <message>INDEXING_STARTED</message>
   <key>INDEXING_STARTED</key>
   <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
   <param>1</param>
 </record>
 <record>
-  <date>2013-04-27T22:03:14</date>
-  <millis>1367114594327</millis>
-  <sequence>157</sequence>
+  <date>2016-08-12T18:08:35</date>
+  <millis>1471039715976</millis>
+  <sequence>166</sequence>
+  <logger>org.netbeans.ui.indexing</logger>
+  <level>800</level>
+  <thread>34</thread>
+  <message>INDEXING_FINISHED</message>
+  <key>INDEXING_FINISHED</key>
+  <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
+  <param>0</param>
+</record>
+<record>
+  <date>2016-08-12T18:08:36</date>
+  <millis>1471039716188</millis>
+  <sequence>169</sequence>
+  <level>800</level>
+  <thread>33</thread>
+  <message>MEMORY</message>
+  <key>MEMORY</key>
+  <catalog>&lt;null&gt;</catalog>
+  <param>8513503232</param>
+</record>
+<record>
+  <date>2016-08-12T18:08:46</date>
+  <millis>1471039726299</millis>
+  <sequence>174</sequence>
+  <logger>org.netbeans.ui.actions</logger>
+  <level>400</level>
+  <thread>37</thread>
+  <message>UI_ACTION_BUTTON_PRESS</message>
+  <key>UI_ACTION_BUTTON_PRESS</key>
+  <catalog>org.openide.awt.Bundle</catalog>
+  <param>org.openide.awt.Toolbar$DefaultIconButton[]</param>
+  <param>org.openide.awt.Toolbar$DefaultIconButton</param>
+  <param>org.netbeans.modules.project.ui.actions.NewFile[&amp;New File...]</param>
+  <param>org.netbeans.modules.project.ui.actions.NewFile</param>
+  <param>&amp;New File...</param>
+</record>
+<record>
+  <date>2016-08-12T18:08:46</date>
+  <millis>1471039726300</millis>
+  <sequence>175</sequence>
+  <logger>org.netbeans.ui.actions</logger>
+  <level>500</level>
+  <thread>37</thread>
+  <message>UI_ACTION_BUTTON_PRESS</message>
+  <key>UI_ACTION_BUTTON_PRESS</key>
+  <catalog>&lt;null&gt;</catalog>
+  <param>org.openide.awt.Toolbar$DefaultIconButton[]</param>
+  <param>org.openide.awt.Toolbar$DefaultIconButton</param>
+  <param>org.netbeans.modules.project.ui.actions.NewFile[&amp;New File...]</param>
+  <param>org.netbeans.modules.project.ui.actions.NewFile</param>
+  <param>&amp;New File...</param>
+</record>
+<record>
+  <date>2016-08-12T18:09:12</date>
+  <millis>1471039752966</millis>
+  <sequence>179</sequence>
+  <logger>org.netbeans.ui.actions</logger>
+  <level>400</level>
+  <thread>37</thread>
+  <message>UI_ACTION_BUTTON_PRESS</message>
+  <key>UI_ACTION_BUTTON_PRESS</key>
+  <catalog>org.openide.awt.Bundle</catalog>
+  <param>org.openide.awt.Actions$MenuItem[New Project...]</param>
+  <param>org.openide.awt.Actions$MenuItem</param>
+  <param>org.openide.awt.AlwaysEnabledAction[Ne&amp;w Project...]</param>
+  <param>org.openide.awt.AlwaysEnabledAction</param>
+  <param>Ne&amp;w Project...</param>
+</record>
+<record>
+  <date>2016-08-12T18:09:35</date>
+  <millis>1471039775024</millis>
+  <sequence>180</sequence>
+  <logger>org.netbeans.ui.focus</logger>
+  <level>500</level>
+  <thread>37</thread>
+  <message>LOG_WINDOW_DEACTIVATED</message>
+  <key>LOG_WINDOW_DEACTIVATED</key>
+  <catalog>org.netbeans.core.ui.warmup.Bundle</catalog>
+</record>
+<record>
+  <date>2016-08-12T18:09:47</date>
+  <millis>1471039787159</millis>
+  <sequence>181</sequence>
+  <logger>org.netbeans.ui.focus</logger>
+  <level>500</level>
+  <thread>34</thread>
+  <message>LOG_WINDOW_ACTIVATED</message>
+  <key>LOG_WINDOW_ACTIVATED</key>
+  <catalog>org.netbeans.core.ui.warmup.Bundle</catalog>
+  <param>4</param>
+</record>
+<record>
+  <date>2016-08-12T18:09:47</date>
+  <millis>1471039787228</millis>
+  <sequence>182</sequence>
+  <logger>org.netbeans.ui.actions</logger>
+  <level>400</level>
+  <thread>37</thread>
+  <message>UI_ACTION_BUTTON_PRESS</message>
+  <key>UI_ACTION_BUTTON_PRESS</key>
+  <catalog>org.openide.awt.Bundle</catalog>
+  <param>org.openide.awt.Actions$MenuItem[New Project...]</param>
+  <param>org.openide.awt.Actions$MenuItem</param>
+  <param>org.openide.awt.AlwaysEnabledAction[Ne&amp;w Project...]</param>
+  <param>org.openide.awt.AlwaysEnabledAction</param>
+  <param>Ne&amp;w Project...</param>
+</record>
+<record>
+  <date>2016-08-12T18:23:28</date>
+  <millis>1471040608096</millis>
+  <sequence>189</sequence>
+  <logger>org.netbeans.ui.metrics.php</logger>
+  <level>800</level>
+  <thread>69</thread>
+  <message>USG_PROJECT_CREATE_PHP</message>
+  <key>USG_PROJECT_CREATE_PHP</key>
+  <catalog>org.netbeans.modules.php.project.util.Bundle</catalog>
+  <param>EXTRA_SRC_DIR_NO</param>
+  <param>LOCAL</param>
+  <param>1</param>
+  <param>COPY_FILES_NO</param>
+  <param></param>
+</record>
+<record>
+  <date>2016-08-12T18:23:28</date>
+  <millis>1471040608725</millis>
+  <sequence>191</sequence>
+  <logger>org.netbeans.ui.indexing</logger>
+  <level>800</level>
+  <thread>68</thread>
+  <message>INDEXING_STARTED</message>
+  <key>INDEXING_STARTED</key>
+  <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
+  <param>892749</param>
+</record>
+<record>
+  <date>2016-08-12T18:23:29</date>
+  <millis>1471040609133</millis>
+  <sequence>202</sequence>
+  <logger>org.netbeans.spi.lexer.MutableTextInput</logger>
+  <level>800</level>
+  <thread>69</thread>
+  <message>!!WARNING!! Missing READ-LOCK when accessing TokenHierarchy: input-source:org.netbeans.editor.BaseDocument@68d7c546, mimeType='text/x-php5', kitClass=null, length=365, version=1, file=null</message>
+  <exception>
+    <message>java.lang.Exception</message>
+    <frame>
+      <class>org.netbeans.lib.lexer.TokenHierarchyOperation</class>
+      <method>ensureReadLocked</method>
+      <line>406</line>
+      <file>${netBeansDir}modules/org-netbeans-modules-lexer.jar</file>
+    </frame>
+    <frame>
+      <class>org.netbeans.lib.lexer.TokenHierarchyOperation</class>
+      <method>languagePaths</method>
+      <line>612</line>
+      <file>${netBeansDir}modules/org-netbeans-modules-lexer.jar</file>
+    </frame>
+    <frame>
+      <class>org.netbeans.api.lexer.TokenHierarchy</class>
+      <method>languagePaths</method>
+      <line>286</line>
+      <file>${netBeansDir}modules/org-netbeans-modules-lexer.jar</file>
+    </frame>
+    <frame>
+      <class>org.netbeans.modules.web.indent.api.LexUtilities</class>
+      <method>getEmbeddedTokenSequences</method>
+      <line>261</line>
+      <file>${netBeansDir}modules/org-netbeans-modules-web-indent.jar</file>
+    </frame>
+    <frame>
+      <class>org.netbeans.modules.web.indent.api.LexUtilities</class>
+      <method>createCodeBlocks</method>
+      <line>328</line>
+      <file>${netBeansDir}modules/org-netbeans-modules-web-indent.jar</file>
+    </frame>
+    <frame>
+      <class>org.netbeans.modules.web.indent.api.support.AbstractIndenter</class>
+      <method>calculateIndentation</method>
+      <line>306</line>
+      <file>${netBeansDir}modules/org-netbeans-modules-web-indent.jar</file>
+    </frame>
+    <frame>
+      <class>org.netbeans.modules.web.indent.api.support.AbstractIndenter</class>
+      <method>reindent</method>
+      <line>233</line>
+      <file>${netBeansDir}modules/org-netbeans-modules-web-indent.jar</file>
+    </frame>
+    <frame>
+      <class>org.netbeans.modules.html.editor.indent.HtmlIndentTask</class>
+      <method>reindent</method>
+      <line>74</line>
+      <file>${netBeansDir}modules/org-netbeans-modules-html-editor.jar</file>
+    </frame>
+    <frame>
+      <class>org.netbeans.modules.editor.indent.TaskHandler$MimeItem</class>
+      <method>runTask</method>
+      <line>555</line>
+      <file>${netBeansDir}modules/org-netbeans-modules-editor-indent.jar</file>
+    </frame>
+    <frame>
+      <class>org.netbeans.modules.editor.indent.TaskHandler</class>
+      <method>runTasks</method>
+      <line>316</line>
+      <file>${netBeansDir}modules/org-netbeans-modules-editor-indent.jar</file>
+    </frame>
+    <frame>
+      <class>org.netbeans.modules.editor.indent.IndentImpl</class>
+      <method>reformat</method>
+      <line>365</line>
+      <file>${netBeansDir}modules/org-netbeans-modules-editor-indent.jar</file>
+    </frame>
+    <frame>
+      <class>org.netbeans.modules.editor.indent.api.Reformat</class>
+      <method>reformat</method>
+      <line>154</line>
+      <file>${netBeansDir}modules/org-netbeans-modules-editor-indent.jar</file>
+    </frame>
+    <frame>
+      <class>org.netbeans.modules.editor.indent.IndentScriptEngineHack</class>
+      <method>eval</method>
+      <line>96</line>
+      <file>${netBeansDir}modules/org-netbeans-modules-editor-indent.jar</file>
+    </frame>
+    <frame>
+      <class>javax.script.AbstractScriptEngine</class>
+      <method>eval</method>
+      <line>264</line>
+      <file>${java.home}lib/rt.jar</file>
+    </frame>
+    <frame>
+      <class>org.netbeans.modules.editor.indent.IndentScriptEngineHack</class>
+      <method>eval</method>
+      <line>125</line>
+      <file>${netBeansDir}modules/org-netbeans-modules-editor-indent.jar</file>
+    </frame>
+    <frame>
+      <class>javax.script.AbstractScriptEngine</class>
+      <method>eval</method>
+      <line>249</line>
+      <file>${java.home}lib/rt.jar</file>
+    </frame>
+    <frame>
+      <class>org.netbeans.modules.templates.ScriptingCreateFromTemplateHandler</class>
+      <method>createFromTemplate</method>
+      <line>133</line>
+      <file>${netbeans.home}modules/org-netbeans-api-templates.jar</file>
+    </frame>
+    <frame>
+      <class>org.netbeans.api.templates.CreateFromTemplateImpl</class>
+      <method>build</method>
+      <line>121</line>
+      <file>${netbeans.home}modules/org-netbeans-api-templates.jar</file>
+    </frame>
+    <frame>
+      <class>org.netbeans.api.templates.CreateFromTemplateImpl</class>
+      <method>build</method>
+      <line>92</line>
+      <file>${netbeans.home}modules/org-netbeans-api-templates.jar</file>
+    </frame>
+    <frame>
+      <class>org.netbeans.api.templates.FileBuilder</class>
+      <method>build</method>
+      <line>250</line>
+      <file>${netbeans.home}modules/org-netbeans-api-templates.jar</file>
+    </frame>
+    <frame>
+      <class>org.netbeans.api.templates.FileBuilder</class>
+      <method>createFromTemplate</method>
+      <line>351</line>
+      <file>${netbeans.home}modules/org-netbeans-api-templates.jar</file>
+    </frame>
+    <frame>
+      <class>org.openide.loaders.MultiDataObject</class>
+      <method>handleCreateFromTemplate</method>
+      <line>878</line>
+      <file>${netbeans.home}modules/org-openide-loaders.jar</file>
+    </frame>
+    <frame>
+      <class>org.netbeans.modules.csl.core.GsfDataObject</class>
+      <method>handleCreateFromTemplate</method>
+      <line>160</line>
+      <file>${netBeansDir}modules/org-netbeans-modules-csl-api.jar</file>
+    </frame>
+    <frame>
+      <class>org.openide.loaders.DataObject$CreateAction</class>
+      <method>run</method>
+      <line>1597</line>
+      <file>${netbeans.home}modules/org-openide-loaders.jar</file>
+    </frame>
+    <frame>
+      <class>org.openide.loaders.DataObjectPool$1WrapAtomicAction</class>
+      <method>run</method>
+      <line>261</line>
+      <file>${netbeans.home}modules/org-openide-loaders.jar</file>
+    </frame>
+    <frame>
+      <class>org.openide.filesystems.EventControl</class>
+      <method>runAtomicAction</method>
+      <line>127</line>
+      <file>${netbeans.home}core/org-openide-filesystems.jar</file>
+    </frame>
+    <frame>
+      <class>org.openide.filesystems.FileSystem</class>
+      <method>runAtomicAction</method>
+      <line>519</line>
+      <file>${netbeans.home}core/org-openide-filesystems.jar</file>
+    </frame>
+    <frame>
+      <class>org.openide.loaders.DataObjectPool</class>
+      <method>runAtomicAction</method>
+      <line>286</line>
+      <file>${netbeans.home}modules/org-openide-loaders.jar</file>
+    </frame>
+    <frame>
+      <class>org.openide.loaders.DataObject</class>
+      <method>invokeAtomicAction</method>
+      <line>1051</line>
+      <file>${netbeans.home}modules/org-openide-loaders.jar</file>
+    </frame>
+    <frame>
+      <class>org.openide.loaders.DataObject</class>
+      <method>createFromTemplate</method>
+      <line>983</line>
+      <file>${netbeans.home}modules/org-openide-loaders.jar</file>
+    </frame>
+    <frame>
+      <class>org.openide.loaders.DataObject</class>
+      <method>createFromTemplate</method>
+      <line>963</line>
+      <file>${netbeans.home}modules/org-openide-loaders.jar</file>
+    </frame>
+    <frame>
+      <class>org.netbeans.modules.php.project.util.PhpProjectGenerator</class>
+      <method>createIndexFile</method>
+      <line>362</line>
+      <file>${netBeansDir}modules/org-netbeans-modules-php-project.jar</file>
+    </frame>
+    <frame>
+      <class>org.netbeans.modules.php.project.util.PhpProjectGenerator</class>
+      <method>createProject</method>
+      <line>152</line>
+      <file>${netBeansDir}modules/org-netbeans-modules-php-project.jar</file>
+    </frame>
+    <frame>
+      <class>org.netbeans.modules.php.project.ui.wizards.NewPhpProjectWizardIterator</class>
+      <method>instantiate</method>
+      <line>257</line>
+      <file>${netBeansDir}modules/org-netbeans-modules-php-project.jar</file>
+    </frame>
+    <frame>
+      <class>org.openide.loaders.TemplateWizard$InstantiatingIteratorBridge</class>
+      <method>instantiate</method>
+      <line>1051</line>
+      <file>${netbeans.home}modules/org-openide-loaders.jar</file>
+    </frame>
+    <frame>
+      <class>org.openide.loaders.TemplateWizard</class>
+      <method>handleInstantiate</method>
+      <line>605</line>
+      <file>${netbeans.home}modules/org-openide-loaders.jar</file>
+    </frame>
+    <frame>
+      <class>org.openide.loaders.TemplateWizard</class>
+      <method>instantiateNewObjects</method>
+      <line>439</line>
+      <file>${netbeans.home}modules/org-openide-loaders.jar</file>
+    </frame>
+    <frame>
+      <class>org.openide.loaders.TemplateWizardIterImpl</class>
+      <method>instantiate</method>
+      <line>253</line>
+      <file>${netbeans.home}modules/org-openide-loaders.jar</file>
+    </frame>
+    <frame>
+      <class>org.openide.loaders.TemplateWizardIteratorWrapper$ProgressInstantiatingIterator</class>
+      <method>instantiate</method>
+      <line>180</line>
+      <file>${netbeans.home}modules/org-openide-loaders.jar</file>
+    </frame>
+    <frame>
+      <class>org.openide.WizardDescriptor</class>
+      <method>callInstantiateOpen</method>
+      <line>1626</line>
+      <file>${netbeans.home}modules/org-openide-dialogs.jar</file>
+    </frame>
+    <frame>
+      <class>org.openide.WizardDescriptor</class>
+      <method>callInstantiate</method>
+      <line>1570</line>
+      <file>${netbeans.home}modules/org-openide-dialogs.jar</file>
+    </frame>
+    <frame>
+      <class>org.openide.WizardDescriptor</class>
+      <method>access$2300</method>
+      <line>92</line>
+      <file>${netbeans.home}modules/org-openide-dialogs.jar</file>
+    </frame>
+    <frame>
+      <class>org.openide.WizardDescriptor$Listener$2$1</class>
+      <method>run</method>
+      <line>2257</line>
+      <file>${netbeans.home}modules/org-openide-dialogs.jar</file>
+    </frame>
+    <frame>
+      <class>org.openide.util.RequestProcessor$Task</class>
+      <method>run</method>
+      <line>1443</line>
+      <file>${netbeans.home}lib/org-openide-util.jar</file>
+    </frame>
+    <frame>
+      <class>org.netbeans.modules.openide.util.GlobalLookup</class>
+      <method>execute</method>
+      <line>68</line>
+      <file>${netbeans.home}lib/org-openide-util-lookup.jar</file>
+    </frame>
+    <frame>
+      <class>org.openide.util.lookup.Lookups</class>
+      <method>executeWith</method>
+      <line>303</line>
+      <file>${netbeans.home}lib/org-openide-util-lookup.jar</file>
+    </frame>
+    <frame>
+      <class>org.openide.util.RequestProcessor$Processor</class>
+      <method>run</method>
+      <line>2058</line>
+      <file>${netbeans.home}lib/org-openide-util.jar</file>
+    </frame>
+  </exception>
+</record>
+<record>
+  <date>2016-08-12T18:23:29</date>
+  <millis>1471040609134</millis>
+  <sequence>203</sequence>
+  <logger>org.netbeans.spi.lexer.MutableTextInput</logger>
+  <level>800</level>
+  <thread>69</thread>
+  <message>!!WARNING!! Missing READ-LOCK when accessing TokenHierarchy: input-source:org.netbeans.editor.BaseDocument@68d7c546, mimeType='text/x-php5', kitClass=null, length=365, version=1, file=null</message>
+  <exception>
+    <message>java.lang.Exception</message>
+    <frame>
+      <class>org.netbeans.lib.lexer.TokenHierarchyOperation</class>
+      <method>ensureReadLocked</method>
+      <line>406</line>
+      <file>${netBeansDir}modules/org-netbeans-modules-lexer.jar</file>
+    </frame>
+    <frame>
+      <class>org.netbeans.lib.lexer.TokenHierarchyOperation</class>
+      <method>tokenSequenceList</method>
+      <line>447</line>
+      <file>${netBeansDir}modules/org-netbeans-modules-lexer.jar</file>
+    </frame>
+    <frame>
+      <class>org.netbeans.api.lexer.TokenHierarchy</class>
+      <method>tokenSequenceList</method>
+      <line>229</line>
+      <file>${netBeansDir}modules/org-netbeans-modules-lexer.jar</file>
+    </frame>
+    <frame>
+      <class>org.netbeans.modules.web.indent.api.LexUtilities</class>
+      <method>getEmbeddedTokenSequences</method>
+      <line>268</line>
+      <file>${netBeansDir}modules/org-netbeans-modules-web-indent.jar</file>
+    </frame>
+    <frame>
+      <class>org.netbeans.modules.web.indent.api.LexUtilities</class>
+      <method>createCodeBlocks</method>
+      <line>328</line>
+      <file>${netBeansDir}modules/org-netbeans-modules-web-indent.jar</file>
+    </frame>
+    <frame>
+      <class>org.netbeans.modules.web.indent.api.support.AbstractIndenter</class>
+      <method>calculateIndentation</method>
+      <line>306</line>
+      <file>${netBeansDir}modules/org-netbeans-modules-web-indent.jar</file>
+    </frame>
+    <frame>
+      <class>org.netbeans.modules.web.indent.api.support.AbstractIndenter</class>
+      <method>reindent</method>
+      <line>233</line>
+      <file>${netBeansDir}modules/org-netbeans-modules-web-indent.jar</file>
+    </frame>
+    <frame>
+      <class>org.netbeans.modules.html.editor.indent.HtmlIndentTask</class>
+      <method>reindent</method>
+      <line>74</line>
+      <file>${netBeansDir}modules/org-netbeans-modules-html-editor.jar</file>
+    </frame>
+    <frame>
+      <class>org.netbeans.modules.editor.indent.TaskHandler$MimeItem</class>
+      <method>runTask</method>
+      <line>555</line>
+      <file>${netBeansDir}modules/org-netbeans-modules-editor-indent.jar</file>
+    </frame>
+    <frame>
+      <class>org.netbeans.modules.editor.indent.TaskHandler</class>
+      <method>runTasks</method>
+      <line>316</line>
+      <file>${netBeansDir}modules/org-netbeans-modules-editor-indent.jar</file>
+    </frame>
+    <frame>
+      <class>org.netbeans.modules.editor.indent.IndentImpl</class>
+      <method>reformat</method>
+      <line>365</line>
+      <file>${netBeansDir}modules/org-netbeans-modules-editor-indent.jar</file>
+    </frame>
+    <frame>
+      <class>org.netbeans.modules.editor.indent.api.Reformat</class>
+      <method>reformat</method>
+      <line>154</line>
+      <file>${netBeansDir}modules/org-netbeans-modules-editor-indent.jar</file>
+    </frame>
+    <frame>
+      <class>org.netbeans.modules.editor.indent.IndentScriptEngineHack</class>
+      <method>eval</method>
+      <line>96</line>
+      <file>${netBeansDir}modules/org-netbeans-modules-editor-indent.jar</file>
+    </frame>
+    <frame>
+      <class>javax.script.AbstractScriptEngine</class>
+      <method>eval</method>
+      <line>264</line>
+      <file>${java.home}lib/rt.jar</file>
+    </frame>
+    <frame>
+      <class>org.netbeans.modules.editor.indent.IndentScriptEngineHack</class>
+      <method>eval</method>
+      <line>125</line>
+      <file>${netBeansDir}modules/org-netbeans-modules-editor-indent.jar</file>
+    </frame>
+    <frame>
+      <class>javax.script.AbstractScriptEngine</class>
+      <method>eval</method>
+      <line>249</line>
+      <file>${java.home}lib/rt.jar</file>
+    </frame>
+    <frame>
+      <class>org.netbeans.modules.templates.ScriptingCreateFromTemplateHandler</class>
+      <method>createFromTemplate</method>
+      <line>133</line>
+      <file>${netbeans.home}modules/org-netbeans-api-templates.jar</file>
+    </frame>
+    <frame>
+      <class>org.netbeans.api.templates.CreateFromTemplateImpl</class>
+      <method>build</method>
+      <line>121</line>
+      <file>${netbeans.home}modules/org-netbeans-api-templates.jar</file>
+    </frame>
+    <frame>
+      <class>org.netbeans.api.templates.CreateFromTemplateImpl</class>
+      <method>build</method>
+      <line>92</line>
+      <file>${netbeans.home}modules/org-netbeans-api-templates.jar</file>
+    </frame>
+    <frame>
+      <class>org.netbeans.api.templates.FileBuilder</class>
+      <method>build</method>
+      <line>250</line>
+      <file>${netbeans.home}modules/org-netbeans-api-templates.jar</file>
+    </frame>
+    <frame>
+      <class>org.netbeans.api.templates.FileBuilder</class>
+      <method>createFromTemplate</method>
+      <line>351</line>
+      <file>${netbeans.home}modules/org-netbeans-api-templates.jar</file>
+    </frame>
+    <frame>
+      <class>org.openide.loaders.MultiDataObject</class>
+      <method>handleCreateFromTemplate</method>
+      <line>878</line>
+      <file>${netbeans.home}modules/org-openide-loaders.jar</file>
+    </frame>
+    <frame>
+      <class>org.netbeans.modules.csl.core.GsfDataObject</class>
+      <method>handleCreateFromTemplate</method>
+      <line>160</line>
+      <file>${netBeansDir}modules/org-netbeans-modules-csl-api.jar</file>
+    </frame>
+    <frame>
+      <class>org.openide.loaders.DataObject$CreateAction</class>
+      <method>run</method>
+      <line>1597</line>
+      <file>${netbeans.home}modules/org-openide-loaders.jar</file>
+    </frame>
+    <frame>
+      <class>org.openide.loaders.DataObjectPool$1WrapAtomicAction</class>
+      <method>run</method>
+      <line>261</line>
+      <file>${netbeans.home}modules/org-openide-loaders.jar</file>
+    </frame>
+    <frame>
+      <class>org.openide.filesystems.EventControl</class>
+      <method>runAtomicAction</method>
+      <line>127</line>
+      <file>${netbeans.home}core/org-openide-filesystems.jar</file>
+    </frame>
+    <frame>
+      <class>org.openide.filesystems.FileSystem</class>
+      <method>runAtomicAction</method>
+      <line>519</line>
+      <file>${netbeans.home}core/org-openide-filesystems.jar</file>
+    </frame>
+    <frame>
+      <class>org.openide.loaders.DataObjectPool</class>
+      <method>runAtomicAction</method>
+      <line>286</line>
+      <file>${netbeans.home}modules/org-openide-loaders.jar</file>
+    </frame>
+    <frame>
+      <class>org.openide.loaders.DataObject</class>
+      <method>invokeAtomicAction</method>
+      <line>1051</line>
+      <file>${netbeans.home}modules/org-openide-loaders.jar</file>
+    </frame>
+    <frame>
+      <class>org.openide.loaders.DataObject</class>
+      <method>createFromTemplate</method>
+      <line>983</line>
+      <file>${netbeans.home}modules/org-openide-loaders.jar</file>
+    </frame>
+    <frame>
+      <class>org.openide.loaders.DataObject</class>
+      <method>createFromTemplate</method>
+      <line>963</line>
+      <file>${netbeans.home}modules/org-openide-loaders.jar</file>
+    </frame>
+    <frame>
+      <class>org.netbeans.modules.php.project.util.PhpProjectGenerator</class>
+      <method>createIndexFile</method>
+      <line>362</line>
+      <file>${netBeansDir}modules/org-netbeans-modules-php-project.jar</file>
+    </frame>
+    <frame>
+      <class>org.netbeans.modules.php.project.util.PhpProjectGenerator</class>
+      <method>createProject</method>
+      <line>152</line>
+      <file>${netBeansDir}modules/org-netbeans-modules-php-project.jar</file>
+    </frame>
+    <frame>
+      <class>org.netbeans.modules.php.project.ui.wizards.NewPhpProjectWizardIterator</class>
+      <method>instantiate</method>
+      <line>257</line>
+      <file>${netBeansDir}modules/org-netbeans-modules-php-project.jar</file>
+    </frame>
+    <frame>
+      <class>org.openide.loaders.TemplateWizard$InstantiatingIteratorBridge</class>
+      <method>instantiate</method>
+      <line>1051</line>
+      <file>${netbeans.home}modules/org-openide-loaders.jar</file>
+    </frame>
+    <frame>
+      <class>org.openide.loaders.TemplateWizard</class>
+      <method>handleInstantiate</method>
+      <line>605</line>
+      <file>${netbeans.home}modules/org-openide-loaders.jar</file>
+    </frame>
+    <frame>
+      <class>org.openide.loaders.TemplateWizard</class>
+      <method>instantiateNewObjects</method>
+      <line>439</line>
+      <file>${netbeans.home}modules/org-openide-loaders.jar</file>
+    </frame>
+    <frame>
+      <class>org.openide.loaders.TemplateWizardIterImpl</class>
+      <method>instantiate</method>
+      <line>253</line>
+      <file>${netbeans.home}modules/org-openide-loaders.jar</file>
+    </frame>
+    <frame>
+      <class>org.openide.loaders.TemplateWizardIteratorWrapper$ProgressInstantiatingIterator</class>
+      <method>instantiate</method>
+      <line>180</line>
+      <file>${netbeans.home}modules/org-openide-loaders.jar</file>
+    </frame>
+    <frame>
+      <class>org.openide.WizardDescriptor</class>
+      <method>callInstantiateOpen</method>
+      <line>1626</line>
+      <file>${netbeans.home}modules/org-openide-dialogs.jar</file>
+    </frame>
+    <frame>
+      <class>org.openide.WizardDescriptor</class>
+      <method>callInstantiate</method>
+      <line>1570</line>
+      <file>${netbeans.home}modules/org-openide-dialogs.jar</file>
+    </frame>
+    <frame>
+      <class>org.openide.WizardDescriptor</class>
+      <method>access$2300</method>
+      <line>92</line>
+      <file>${netbeans.home}modules/org-openide-dialogs.jar</file>
+    </frame>
+    <frame>
+      <class>org.openide.WizardDescriptor$Listener$2$1</class>
+      <method>run</method>
+      <line>2257</line>
+      <file>${netbeans.home}modules/org-openide-dialogs.jar</file>
+    </frame>
+    <frame>
+      <class>org.openide.util.RequestProcessor$Task</class>
+      <method>run</method>
+      <line>1443</line>
+      <file>${netbeans.home}lib/org-openide-util.jar</file>
+    </frame>
+    <frame>
+      <class>org.netbeans.modules.openide.util.GlobalLookup</class>
+      <method>execute</method>
+      <line>68</line>
+      <file>${netbeans.home}lib/org-openide-util-lookup.jar</file>
+    </frame>
+    <frame>
+      <class>org.openide.util.lookup.Lookups</class>
+      <method>executeWith</method>
+      <line>303</line>
+      <file>${netbeans.home}lib/org-openide-util-lookup.jar</file>
+    </frame>
+    <frame>
+      <class>org.openide.util.RequestProcessor$Processor</class>
+      <method>run</method>
+      <line>2058</line>
+      <file>${netbeans.home}lib/org-openide-util.jar</file>
+    </frame>
+  </exception>
+</record>
+<record>
+  <date>2016-08-12T18:23:29</date>
+  <millis>1471040609384</millis>
+  <sequence>204</sequence>
+  <logger>org.netbeans.spi.lexer.MutableTextInput</logger>
+  <level>800</level>
+  <thread>69</thread>
+  <message>!!WARNING!! Missing READ-LOCK when accessing TokenHierarchy: input-source:org.netbeans.editor.BaseDocument@68d7c546, mimeType='text/x-php5', kitClass=null, length=365, version=1, file=null</message>
+  <exception>
+    <message>java.lang.Exception</message>
+    <frame>
+      <class>org.netbeans.lib.lexer.TokenHierarchyOperation</class>
+      <method>ensureReadLocked</method>
+      <line>406</line>
+      <file>${netBeansDir}modules/org-netbeans-modules-lexer.jar</file>
+    </frame>
+    <frame>
+      <class>org.netbeans.lib.lexer.TokenHierarchyOperation</class>
+      <method>tokenSequence</method>
+      <line>431</line>
+      <file>${netBeansDir}modules/org-netbeans-modules-lexer.jar</file>
+    </frame>
+    <frame>
+      <class>org.netbeans.lib.lexer.TokenHierarchyOperation</class>
+      <method>tokenSequence</method>
+      <line>427</line>
+      <file>${netBeansDir}modules/org-netbeans-modules-lexer.jar</file>
+    </frame>
+    <frame>
+      <class>org.netbeans.lib.lexer.TokenHierarchyOperation</class>
+      <method>embeddedTokenSequences</method>
+      <line>459</line>
+      <file>${netBeansDir}modules/org-netbeans-modules-lexer.jar</file>
+    </frame>
+    <frame>
+      <class>org.netbeans.api.lexer.TokenHierarchy</class>
+      <method>embeddedTokenSequences</method>
+      <line>265</line>
+      <file>${netBeansDir}modules/org-netbeans-modules-lexer.jar</file>
+    </frame>
+    <frame>
+      <class>org.netbeans.modules.web.indent.api.LexUtilities</class>
+      <method>getLanguage</method>
+      <line>119</line>
+      <file>${netBeansDir}modules/org-netbeans-modules-web-indent.jar</file>
+    </frame>
+    <frame>
+      <class>org.netbeans.modules.web.indent.api.LexUtilities</class>
+      <method>getLanguage</method>
+      <line>115</line>
+      <file>${netBeansDir}modules/org-netbeans-modules-web-indent.jar</file>
+    </frame>
+    <frame>
+      <class>org.netbeans.modules.web.indent.api.support.AbstractIndenter</class>
+      <method>processLanguage</method>
+      <line>1194</line>
+      <file>${netBeansDir}modules/org-netbeans-modules-web-indent.jar</file>
+    </frame>
+    <frame>
+      <class>org.netbeans.modules.web.indent.api.support.AbstractIndenter</class>
+      <method>calculateIndentation</method>
+      <line>373</line>
+      <file>${netBeansDir}modules/org-netbeans-modules-web-indent.jar</file>
+    </frame>
+    <frame>
+      <class>org.netbeans.modules.web.indent.api.support.AbstractIndenter</class>
+      <method>reindent</method>
+      <line>233</line>
+      <file>${netBeansDir}modules/org-netbeans-modules-web-indent.jar</file>
+    </frame>
+    <frame>
+      <class>org.netbeans.modules.html.editor.indent.HtmlIndentTask</class>
+      <method>reindent</method>
+      <line>74</line>
+      <file>${netBeansDir}modules/org-netbeans-modules-html-editor.jar</file>
+    </frame>
+    <frame>
+      <class>org.netbeans.modules.editor.indent.TaskHandler$MimeItem</class>
+      <method>runTask</method>
+      <line>555</line>
+      <file>${netBeansDir}modules/org-netbeans-modules-editor-indent.jar</file>
+    </frame>
+    <frame>
+      <class>org.netbeans.modules.editor.indent.TaskHandler</class>
+      <method>runTasks</method>
+      <line>316</line>
+      <file>${netBeansDir}modules/org-netbeans-modules-editor-indent.jar</file>
+    </frame>
+    <frame>
+      <class>org.netbeans.modules.editor.indent.IndentImpl</class>
+      <method>reformat</method>
+      <line>365</line>
+      <file>${netBeansDir}modules/org-netbeans-modules-editor-indent.jar</file>
+    </frame>
+    <frame>
+      <class>org.netbeans.modules.editor.indent.api.Reformat</class>
+      <method>reformat</method>
+      <line>154</line>
+      <file>${netBeansDir}modules/org-netbeans-modules-editor-indent.jar</file>
+    </frame>
+    <frame>
+      <class>org.netbeans.modules.editor.indent.IndentScriptEngineHack</class>
+      <method>eval</method>
+      <line>96</line>
+      <file>${netBeansDir}modules/org-netbeans-modules-editor-indent.jar</file>
+    </frame>
+    <frame>
+      <class>javax.script.AbstractScriptEngine</class>
+      <method>eval</method>
+      <line>264</line>
+      <file>${java.home}lib/rt.jar</file>
+    </frame>
+    <frame>
+      <class>org.netbeans.modules.editor.indent.IndentScriptEngineHack</class>
+      <method>eval</method>
+      <line>125</line>
+      <file>${netBeansDir}modules/org-netbeans-modules-editor-indent.jar</file>
+    </frame>
+    <frame>
+      <class>javax.script.AbstractScriptEngine</class>
+      <method>eval</method>
+      <line>249</line>
+      <file>${java.home}lib/rt.jar</file>
+    </frame>
+    <frame>
+      <class>org.netbeans.modules.templates.ScriptingCreateFromTemplateHandler</class>
+      <method>createFromTemplate</method>
+      <line>133</line>
+      <file>${netbeans.home}modules/org-netbeans-api-templates.jar</file>
+    </frame>
+    <frame>
+      <class>org.netbeans.api.templates.CreateFromTemplateImpl</class>
+      <method>build</method>
+      <line>121</line>
+      <file>${netbeans.home}modules/org-netbeans-api-templates.jar</file>
+    </frame>
+    <frame>
+      <class>org.netbeans.api.templates.CreateFromTemplateImpl</class>
+      <method>build</method>
+      <line>92</line>
+      <file>${netbeans.home}modules/org-netbeans-api-templates.jar</file>
+    </frame>
+    <frame>
+      <class>org.netbeans.api.templates.FileBuilder</class>
+      <method>build</method>
+      <line>250</line>
+      <file>${netbeans.home}modules/org-netbeans-api-templates.jar</file>
+    </frame>
+    <frame>
+      <class>org.netbeans.api.templates.FileBuilder</class>
+      <method>createFromTemplate</method>
+      <line>351</line>
+      <file>${netbeans.home}modules/org-netbeans-api-templates.jar</file>
+    </frame>
+    <frame>
+      <class>org.openide.loaders.MultiDataObject</class>
+      <method>handleCreateFromTemplate</method>
+      <line>878</line>
+      <file>${netbeans.home}modules/org-openide-loaders.jar</file>
+    </frame>
+    <frame>
+      <class>org.netbeans.modules.csl.core.GsfDataObject</class>
+      <method>handleCreateFromTemplate</method>
+      <line>160</line>
+      <file>${netBeansDir}modules/org-netbeans-modules-csl-api.jar</file>
+    </frame>
+    <frame>
+      <class>org.openide.loaders.DataObject$CreateAction</class>
+      <method>run</method>
+      <line>1597</line>
+      <file>${netbeans.home}modules/org-openide-loaders.jar</file>
+    </frame>
+    <frame>
+      <class>org.openide.loaders.DataObjectPool$1WrapAtomicAction</class>
+      <method>run</method>
+      <line>261</line>
+      <file>${netbeans.home}modules/org-openide-loaders.jar</file>
+    </frame>
+    <frame>
+      <class>org.openide.filesystems.EventControl</class>
+      <method>runAtomicAction</method>
+      <line>127</line>
+      <file>${netbeans.home}core/org-openide-filesystems.jar</file>
+    </frame>
+    <frame>
+      <class>org.openide.filesystems.FileSystem</class>
+      <method>runAtomicAction</method>
+      <line>519</line>
+      <file>${netbeans.home}core/org-openide-filesystems.jar</file>
+    </frame>
+    <frame>
+      <class>org.openide.loaders.DataObjectPool</class>
+      <method>runAtomicAction</method>
+      <line>286</line>
+      <file>${netbeans.home}modules/org-openide-loaders.jar</file>
+    </frame>
+    <frame>
+      <class>org.openide.loaders.DataObject</class>
+      <method>invokeAtomicAction</method>
+      <line>1051</line>
+      <file>${netbeans.home}modules/org-openide-loaders.jar</file>
+    </frame>
+    <frame>
+      <class>org.openide.loaders.DataObject</class>
+      <method>createFromTemplate</method>
+      <line>983</line>
+      <file>${netbeans.home}modules/org-openide-loaders.jar</file>
+    </frame>
+    <frame>
+      <class>org.openide.loaders.DataObject</class>
+      <method>createFromTemplate</method>
+      <line>963</line>
+      <file>${netbeans.home}modules/org-openide-loaders.jar</file>
+    </frame>
+    <frame>
+      <class>org.netbeans.modules.php.project.util.PhpProjectGenerator</class>
+      <method>createIndexFile</method>
+      <line>362</line>
+      <file>${netBeansDir}modules/org-netbeans-modules-php-project.jar</file>
+    </frame>
+    <frame>
+      <class>org.netbeans.modules.php.project.util.PhpProjectGenerator</class>
+      <method>createProject</method>
+      <line>152</line>
+      <file>${netBeansDir}modules/org-netbeans-modules-php-project.jar</file>
+    </frame>
+    <frame>
+      <class>org.netbeans.modules.php.project.ui.wizards.NewPhpProjectWizardIterator</class>
+      <method>instantiate</method>
+      <line>257</line>
+      <file>${netBeansDir}modules/org-netbeans-modules-php-project.jar</file>
+    </frame>
+    <frame>
+      <class>org.openide.loaders.TemplateWizard$InstantiatingIteratorBridge</class>
+      <method>instantiate</method>
+      <line>1051</line>
+      <file>${netbeans.home}modules/org-openide-loaders.jar</file>
+    </frame>
+    <frame>
+      <class>org.openide.loaders.TemplateWizard</class>
+      <method>handleInstantiate</method>
+      <line>605</line>
+      <file>${netbeans.home}modules/org-openide-loaders.jar</file>
+    </frame>
+    <frame>
+      <class>org.openide.loaders.TemplateWizard</class>
+      <method>instantiateNewObjects</method>
+      <line>439</line>
+      <file>${netbeans.home}modules/org-openide-loaders.jar</file>
+    </frame>
+    <frame>
+      <class>org.openide.loaders.TemplateWizardIterImpl</class>
+      <method>instantiate</method>
+      <line>253</line>
+      <file>${netbeans.home}modules/org-openide-loaders.jar</file>
+    </frame>
+    <frame>
+      <class>org.openide.loaders.TemplateWizardIteratorWrapper$ProgressInstantiatingIterator</class>
+      <method>instantiate</method>
+      <line>180</line>
+      <file>${netbeans.home}modules/org-openide-loaders.jar</file>
+    </frame>
+    <frame>
+      <class>org.openide.WizardDescriptor</class>
+      <method>callInstantiateOpen</method>
+      <line>1626</line>
+      <file>${netbeans.home}modules/org-openide-dialogs.jar</file>
+    </frame>
+    <frame>
+      <class>org.openide.WizardDescriptor</class>
+      <method>callInstantiate</method>
+      <line>1570</line>
+      <file>${netbeans.home}modules/org-openide-dialogs.jar</file>
+    </frame>
+    <frame>
+      <class>org.openide.WizardDescriptor</class>
+      <method>access$2300</method>
+      <line>92</line>
+      <file>${netbeans.home}modules/org-openide-dialogs.jar</file>
+    </frame>
+    <frame>
+      <class>org.openide.WizardDescriptor$Listener$2$1</class>
+      <method>run</method>
+      <line>2257</line>
+      <file>${netbeans.home}modules/org-openide-dialogs.jar</file>
+    </frame>
+    <frame>
+      <class>org.openide.util.RequestProcessor$Task</class>
+      <method>run</method>
+      <line>1443</line>
+      <file>${netbeans.home}lib/org-openide-util.jar</file>
+    </frame>
+    <frame>
+      <class>org.netbeans.modules.openide.util.GlobalLookup</class>
+      <method>execute</method>
+      <line>68</line>
+      <file>${netbeans.home}lib/org-openide-util-lookup.jar</file>
+    </frame>
+    <frame>
+      <class>org.openide.util.lookup.Lookups</class>
+      <method>executeWith</method>
+      <line>303</line>
+      <file>${netbeans.home}lib/org-openide-util-lookup.jar</file>
+    </frame>
+    <frame>
+      <class>org.openide.util.RequestProcessor$Processor</class>
+      <method>run</method>
+      <line>2058</line>
+      <file>${netbeans.home}lib/org-openide-util.jar</file>
+    </frame>
+  </exception>
+</record>
+<record>
+  <date>2016-08-12T18:23:31</date>
+  <millis>1471040611197</millis>
+  <sequence>209</sequence>
+  <logger>org.netbeans.ui.metrics.php</logger>
+  <level>800</level>
+  <thread>71</thread>
+  <message>USG_PROJECT_OPEN_PHP</message>
+  <key>USG_PROJECT_OPEN_PHP</key>
+  <catalog>org.netbeans.modules.php.project.Bundle</catalog>
+  <param></param>
+</record>
+<record>
+  <date>2016-08-12T18:23:31</date>
+  <millis>1471040611219</millis>
+  <sequence>210</sequence>
+  <logger>org.netbeans.ui.projects</logger>
+  <level>700</level>
+  <thread>71</thread>
+  <message>UI_OPEN_PROJECTS</message>
+  <key>UI_OPEN_PROJECTS</key>
+  <catalog>org.netbeans.modules.project.ui.Bundle</catalog>
+  <param>org.netbeans.modules.php.project.PhpProject</param>
+  <param>PhpProject</param>
+  <param>1</param>
+</record>
+<record>
+  <date>2016-08-12T18:23:31</date>
+  <millis>1471040611219</millis>
+  <sequence>211</sequence>
+  <logger>org.netbeans.ui.metrics.projects</logger>
+  <level>800</level>
+  <thread>71</thread>
+  <message>USG_PROJECT_OPEN</message>
+  <param>org.netbeans.modules.php.project.PhpProject</param>
+</record>
+<record>
+  <date>2016-08-12T18:23:31</date>
+  <millis>1471040611654</millis>
+  <sequence>228</sequence>
+  <logger>org.netbeans.ui.indexing</logger>
+  <level>800</level>
+  <thread>68</thread>
+  <message>INDEXING_FINISHED</message>
+  <key>INDEXING_FINISHED</key>
+  <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
+  <param>2928</param>
+  <param>TaskListIndexer</param>
+  <param>1</param>
+  <param>860</param>
+  <param>org-netbeans-modules-jumpto-file-FileIndexer</param>
+  <param>1</param>
+  <param>19</param>
+</record>
+<record>
+  <date>2016-08-12T18:23:31</date>
+  <millis>1471040611654</millis>
+  <sequence>229</sequence>
+  <logger>org.netbeans.ui.indexing</logger>
+  <level>800</level>
+  <thread>68</thread>
+  <message>INDEXING_STARTED</message>
+  <key>INDEXING_STARTED</key>
+  <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
+  <param>0</param>
+</record>
+<record>
+  <date>2016-08-12T18:23:32</date>
+  <millis>1471040612945</millis>
+  <sequence>241</sequence>
   <logger>org.netbeans.modules.palette.PaletteItemNode</logger>
-  <level>INFO</level>
-  <thread>20</thread>
+  <level>800</level>
+  <thread>37</thread>
   <exception>
     <message>java.net.MalformedURLException: no protocol: org/netbeans/modules/filepalette/items/resources/littleicon.png</message>
     <frame>
       <class>java.net.URL</class>
       <method>&lt;init&gt;</method>
-      <line>585</line>
+      <line>593</line>
       <file>${java.home}lib/rt.jar</file>
     </frame>
     <frame>
       <class>java.net.URL</class>
       <method>&lt;init&gt;</method>
-      <line>482</line>
+      <line>490</line>
       <file>${java.home}lib/rt.jar</file>
     </frame>
     <frame>
       <class>java.net.URL</class>
       <method>&lt;init&gt;</method>
-      <line>431</line>
+      <line>439</line>
       <file>${java.home}lib/rt.jar</file>
     </frame>
     <frame>
@@ -142,19 +1652,19 @@
     <frame>
       <class>org.openide.nodes.FilterNode</class>
       <method>getIcon</method>
-      <line>568</line>
+      <line>564</line>
       <file>${netbeans.home}modules/org-openide-nodes.jar</file>
     </frame>
     <frame>
       <class>org.openide.nodes.FilterNode</class>
       <method>getIcon</method>
-      <line>568</line>
+      <line>564</line>
       <file>${netbeans.home}modules/org-openide-nodes.jar</file>
     </frame>
     <frame>
       <class>org.openide.nodes.FilterNode</class>
       <method>getIcon</method>
-      <line>568</line>
+      <line>564</line>
       <file>${netbeans.home}modules/org-openide-nodes.jar</file>
     </frame>
     <frame>
@@ -196,13 +1706,13 @@
     <frame>
       <class>javax.swing.JList</class>
       <method>getCellBounds</method>
-      <line>1633</line>
+      <line>1631</line>
       <file>${java.home}lib/rt.jar</file>
     </frame>
     <frame>
       <class>javax.swing.JList</class>
       <method>ensureIndexIsVisible</method>
-      <line>1149</line>
+      <line>1147</line>
       <file>${java.home}lib/rt.jar</file>
     </frame>
     <frame>
@@ -280,7 +1790,7 @@
     <frame>
       <class>org.netbeans.spi.palette.PaletteSwitch</class>
       <method>showHidePaletteTopComponent</method>
-      <line>234</line>
+      <line>251</line>
       <file>${netBeansDir}modules/org-netbeans-spi-palette.jar</file>
     </frame>
     <frame>
@@ -292,37 +1802,37 @@
     <frame>
       <class>org.netbeans.spi.palette.PaletteSwitch$3</class>
       <method>run</method>
-      <line>349</line>
+      <line>366</line>
       <file>${netBeansDir}modules/org-netbeans-spi-palette.jar</file>
     </frame>
     <frame>
       <class>java.awt.event.InvocationEvent</class>
       <method>dispatch</method>
-      <line>251</line>
+      <line>311</line>
       <file>${java.home}lib/rt.jar</file>
     </frame>
     <frame>
       <class>java.awt.EventQueue</class>
       <method>dispatchEventImpl</method>
-      <line>727</line>
+      <line>756</line>
       <file>${java.home}lib/rt.jar</file>
     </frame>
     <frame>
       <class>java.awt.EventQueue</class>
-      <method>access$200</method>
-      <line>103</line>
+      <method>access$500</method>
+      <line>97</line>
       <file>${java.home}lib/rt.jar</file>
     </frame>
     <frame>
       <class>java.awt.EventQueue$3</class>
       <method>run</method>
-      <line>688</line>
+      <line>709</line>
       <file>${java.home}lib/rt.jar</file>
     </frame>
     <frame>
       <class>java.awt.EventQueue$3</class>
       <method>run</method>
-      <line>686</line>
+      <line>703</line>
       <file>${java.home}lib/rt.jar</file>
     </frame>
     <frame>
@@ -331,7 +1841,7 @@
       <file>${java.home}lib/rt.jar</file>
     </frame>
     <frame>
-      <class>java.security.ProtectionDomain$1</class>
+      <class>java.security.ProtectionDomain$JavaSecurityAccessImpl</class>
       <method>doIntersectionPrivilege</method>
       <line>76</line>
       <file>${java.home}lib/rt.jar</file>
@@ -339,72 +1849,72 @@
     <frame>
       <class>java.awt.EventQueue</class>
       <method>dispatchEvent</method>
-      <line>697</line>
+      <line>726</line>
       <file>${java.home}lib/rt.jar</file>
     </frame>
     <frame>
       <class>org.netbeans.core.TimableEventQueue</class>
       <method>dispatchEvent</method>
-      <line>158</line>
+      <line>159</line>
       <file>${netbeans.home}modules/org-netbeans-core.jar</file>
     </frame>
     <frame>
       <class>java.awt.EventDispatchThread</class>
       <method>pumpOneEventForFilters</method>
-      <line>242</line>
+      <line>201</line>
       <file>${java.home}lib/rt.jar</file>
     </frame>
     <frame>
       <class>java.awt.EventDispatchThread</class>
       <method>pumpEventsForFilter</method>
-      <line>161</line>
+      <line>116</line>
       <file>${java.home}lib/rt.jar</file>
     </frame>
     <frame>
       <class>java.awt.EventDispatchThread</class>
       <method>pumpEventsForHierarchy</method>
-      <line>150</line>
+      <line>105</line>
       <file>${java.home}lib/rt.jar</file>
     </frame>
     <frame>
       <class>java.awt.EventDispatchThread</class>
       <method>pumpEvents</method>
-      <line>146</line>
+      <line>101</line>
       <file>${java.home}lib/rt.jar</file>
     </frame>
     <frame>
       <class>java.awt.EventDispatchThread</class>
       <method>pumpEvents</method>
-      <line>138</line>
+      <line>93</line>
       <file>${java.home}lib/rt.jar</file>
     </frame>
     <frame>
       <class>java.awt.EventDispatchThread</class>
       <method>run</method>
-      <line>91</line>
+      <line>82</line>
       <file>${java.home}lib/rt.jar</file>
     </frame>
   </exception>
 </record>
 <record>
-  <date>2013-04-27T22:03:14</date>
-  <millis>1367114594352</millis>
-  <sequence>158</sequence>
+  <date>2016-08-12T18:23:32</date>
+  <millis>1471040612987</millis>
+  <sequence>242</sequence>
   <logger>org.netbeans.modules.palette.PaletteItemNode</logger>
-  <level>INFO</level>
-  <thread>20</thread>
+  <level>800</level>
+  <thread>37</thread>
   <exception>
     <message>java.util.MissingResourceException: Can't find resource for bundle org.openide.util.NbBundle$PBundle, key HINT_html-bo</message>
     <frame>
       <class>java.util.ResourceBundle</class>
       <method>getObject</method>
-      <line>393</line>
+      <line>450</line>
       <file>${java.home}lib/rt.jar</file>
     </frame>
     <frame>
       <class>java.util.ResourceBundle</class>
       <method>getString</method>
-      <line>353</line>
+      <line>407</line>
       <file>${java.home}lib/rt.jar</file>
     </frame>
     <frame>
@@ -422,19 +1932,19 @@
     <frame>
       <class>org.openide.nodes.FilterNode</class>
       <method>getShortDescription</method>
-      <line>555</line>
+      <line>551</line>
       <file>${netbeans.home}modules/org-openide-nodes.jar</file>
     </frame>
     <frame>
       <class>org.openide.nodes.FilterNode</class>
       <method>getShortDescription</method>
-      <line>555</line>
+      <line>551</line>
       <file>${netbeans.home}modules/org-openide-nodes.jar</file>
     </frame>
     <frame>
       <class>org.openide.nodes.FilterNode</class>
       <method>getShortDescription</method>
-      <line>555</line>
+      <line>551</line>
       <file>${netbeans.home}modules/org-openide-nodes.jar</file>
     </frame>
     <frame>
@@ -476,13 +1986,13 @@
     <frame>
       <class>javax.swing.JList</class>
       <method>getCellBounds</method>
-      <line>1633</line>
+      <line>1631</line>
       <file>${java.home}lib/rt.jar</file>
     </frame>
     <frame>
       <class>javax.swing.JList</class>
       <method>ensureIndexIsVisible</method>
-      <line>1149</line>
+      <line>1147</line>
       <file>${java.home}lib/rt.jar</file>
     </frame>
     <frame>
@@ -560,7 +2070,7 @@
     <frame>
       <class>org.netbeans.spi.palette.PaletteSwitch</class>
       <method>showHidePaletteTopComponent</method>
-      <line>234</line>
+      <line>251</line>
       <file>${netBeansDir}modules/org-netbeans-spi-palette.jar</file>
     </frame>
     <frame>
@@ -572,37 +2082,37 @@
     <frame>
       <class>org.netbeans.spi.palette.PaletteSwitch$3</class>
       <method>run</method>
-      <line>349</line>
+      <line>366</line>
       <file>${netBeansDir}modules/org-netbeans-spi-palette.jar</file>
     </frame>
     <frame>
       <class>java.awt.event.InvocationEvent</class>
       <method>dispatch</method>
-      <line>251</line>
+      <line>311</line>
       <file>${java.home}lib/rt.jar</file>
     </frame>
     <frame>
       <class>java.awt.EventQueue</class>
       <method>dispatchEventImpl</method>
-      <line>727</line>
+      <line>756</line>
       <file>${java.home}lib/rt.jar</file>
     </frame>
     <frame>
       <class>java.awt.EventQueue</class>
-      <method>access$200</method>
-      <line>103</line>
+      <method>access$500</method>
+      <line>97</line>
       <file>${java.home}lib/rt.jar</file>
     </frame>
     <frame>
       <class>java.awt.EventQueue$3</class>
       <method>run</method>
-      <line>688</line>
+      <line>709</line>
       <file>${java.home}lib/rt.jar</file>
     </frame>
     <frame>
       <class>java.awt.EventQueue$3</class>
       <method>run</method>
-      <line>686</line>
+      <line>703</line>
       <file>${java.home}lib/rt.jar</file>
     </frame>
     <frame>
@@ -611,7 +2121,7 @@
       <file>${java.home}lib/rt.jar</file>
     </frame>
     <frame>
-      <class>java.security.ProtectionDomain$1</class>
+      <class>java.security.ProtectionDomain$JavaSecurityAccessImpl</class>
       <method>doIntersectionPrivilege</method>
       <line>76</line>
       <file>${java.home}lib/rt.jar</file>
@@ -619,67 +2129,67 @@
     <frame>
       <class>java.awt.EventQueue</class>
       <method>dispatchEvent</method>
-      <line>697</line>
+      <line>726</line>
       <file>${java.home}lib/rt.jar</file>
     </frame>
     <frame>
       <class>org.netbeans.core.TimableEventQueue</class>
       <method>dispatchEvent</method>
-      <line>158</line>
+      <line>159</line>
       <file>${netbeans.home}modules/org-netbeans-core.jar</file>
     </frame>
     <frame>
       <class>java.awt.EventDispatchThread</class>
       <method>pumpOneEventForFilters</method>
-      <line>242</line>
+      <line>201</line>
       <file>${java.home}lib/rt.jar</file>
     </frame>
     <frame>
       <class>java.awt.EventDispatchThread</class>
       <method>pumpEventsForFilter</method>
-      <line>161</line>
+      <line>116</line>
       <file>${java.home}lib/rt.jar</file>
     </frame>
     <frame>
       <class>java.awt.EventDispatchThread</class>
       <method>pumpEventsForHierarchy</method>
-      <line>150</line>
+      <line>105</line>
       <file>${java.home}lib/rt.jar</file>
     </frame>
     <frame>
       <class>java.awt.EventDispatchThread</class>
       <method>pumpEvents</method>
-      <line>146</line>
+      <line>101</line>
       <file>${java.home}lib/rt.jar</file>
     </frame>
     <frame>
       <class>java.awt.EventDispatchThread</class>
       <method>pumpEvents</method>
-      <line>138</line>
+      <line>93</line>
       <file>${java.home}lib/rt.jar</file>
     </frame>
     <frame>
       <class>java.awt.EventDispatchThread</class>
       <method>run</method>
-      <line>91</line>
+      <line>82</line>
       <file>${java.home}lib/rt.jar</file>
     </frame>
   </exception>
 </record>
 <record>
-  <date>2013-04-27T22:03:14</date>
-  <millis>1367114594387</millis>
-  <sequence>159</sequence>
+  <date>2016-08-12T18:23:32</date>
+  <millis>1471040612996</millis>
+  <sequence>243</sequence>
   <logger>org.netbeans.core.startup.layers.BinaryFS</logger>
-  <level>INFO</level>
-  <thread>20</thread>
+  <level>800</level>
+  <thread>37</thread>
   <message>value = org.netbeans.modules.filepalette.Bundle#LearingPalette/Objects, Classes, Methods from LearningPalette/Objects, Classes, Functions</message>
   <exception>
     <message>java.util.MissingResourceException: Can't find resource for bundle org.openide.util.NbBundle$PBundle, key LearingPalette/Objects, Classes, Methods</message>
     <frame>
       <class>java.util.ResourceBundle</class>
       <method>getObject</method>
-      <line>393</line>
+      <line>450</line>
       <file>${java.home}lib/rt.jar</file>
     </frame>
     <frame>
@@ -697,44 +2207,44 @@
     <frame>
       <class>org.openide.filesystems.MultiFileObject</class>
       <method>getAttribute</method>
-      <line>930</line>
+      <line>944</line>
       <file>${netbeans.home}core/org-openide-filesystems.jar</file>
     </frame>
     <frame>
       <class>org.openide.filesystems.MultiFileObject</class>
       <method>getAttribute</method>
-      <line>863</line>
+      <line>877</line>
       <file>${netbeans.home}core/org-openide-filesystems.jar</file>
     </frame>
     <frame>
       <class>org.openide.filesystems.MultiFileObject</class>
       <method>getAttribute</method>
-      <line>926</line>
+      <line>940</line>
       <file>${netbeans.home}core/org-openide-filesystems.jar</file>
     </frame>
     <frame>
       <class>org.openide.filesystems.MultiFileObject</class>
       <method>getAttribute</method>
-      <line>863</line>
+      <line>877</line>
       <file>${netbeans.home}core/org-openide-filesystems.jar</file>
     </frame>
     <frame>
       <class>org.openide.filesystems.MultiFileObject</class>
       <method>getAttribute</method>
-      <line>791</line>
+      <line>798</line>
       <file>${netbeans.home}core/org-openide-filesystems.jar</file>
     </frame>
     <frame>
-      <class>org.openide.filesystems.FileSystem$3</class>
+      <class>org.netbeans.modules.openide.filesystems.FileSystemStatus</class>
       <method>annotateName</method>
-      <line>1066</line>
-      <file>${netbeans.home}core/org-openide-filesystems.jar</file>
+      <line>106</line>
+      <file>${netbeans.home}modules/org-openide-filesystems-nb.jar</file>
     </frame>
     <frame>
-      <class>org.openide.filesystems.FileSystem$3</class>
+      <class>org.netbeans.modules.openide.filesystems.FileSystemStatus</class>
       <method>annotateName</method>
-      <line>1041</line>
-      <file>${netbeans.home}core/org-openide-filesystems.jar</file>
+      <line>81</line>
+      <file>${netbeans.home}modules/org-openide-filesystems-nb.jar</file>
     </frame>
     <frame>
       <class>org.openide.loaders.DataNode</class>
@@ -745,13 +2255,13 @@
     <frame>
       <class>org.openide.nodes.FilterNode</class>
       <method>getDisplayName</method>
-      <line>532</line>
+      <line>528</line>
       <file>${netbeans.home}modules/org-openide-nodes.jar</file>
     </frame>
     <frame>
       <class>org.openide.nodes.FilterNode</class>
       <method>getDisplayName</method>
-      <line>532</line>
+      <line>528</line>
       <file>${netbeans.home}modules/org-openide-nodes.jar</file>
     </frame>
     <frame>
@@ -847,7 +2357,7 @@
     <frame>
       <class>org.netbeans.spi.palette.PaletteSwitch</class>
       <method>showHidePaletteTopComponent</method>
-      <line>234</line>
+      <line>251</line>
       <file>${netBeansDir}modules/org-netbeans-spi-palette.jar</file>
     </frame>
     <frame>
@@ -859,37 +2369,37 @@
     <frame>
       <class>org.netbeans.spi.palette.PaletteSwitch$3</class>
       <method>run</method>
-      <line>349</line>
+      <line>366</line>
       <file>${netBeansDir}modules/org-netbeans-spi-palette.jar</file>
     </frame>
     <frame>
       <class>java.awt.event.InvocationEvent</class>
       <method>dispatch</method>
-      <line>251</line>
+      <line>311</line>
       <file>${java.home}lib/rt.jar</file>
     </frame>
     <frame>
       <class>java.awt.EventQueue</class>
       <method>dispatchEventImpl</method>
-      <line>727</line>
+      <line>756</line>
       <file>${java.home}lib/rt.jar</file>
     </frame>
     <frame>
       <class>java.awt.EventQueue</class>
-      <method>access$200</method>
-      <line>103</line>
+      <method>access$500</method>
+      <line>97</line>
       <file>${java.home}lib/rt.jar</file>
     </frame>
     <frame>
       <class>java.awt.EventQueue$3</class>
       <method>run</method>
-      <line>688</line>
+      <line>709</line>
       <file>${java.home}lib/rt.jar</file>
     </frame>
     <frame>
       <class>java.awt.EventQueue$3</class>
       <method>run</method>
-      <line>686</line>
+      <line>703</line>
       <file>${java.home}lib/rt.jar</file>
     </frame>
     <frame>
@@ -898,7 +2408,7 @@
       <file>${java.home}lib/rt.jar</file>
     </frame>
     <frame>
-      <class>java.security.ProtectionDomain$1</class>
+      <class>java.security.ProtectionDomain$JavaSecurityAccessImpl</class>
       <method>doIntersectionPrivilege</method>
       <line>76</line>
       <file>${java.home}lib/rt.jar</file>
@@ -906,74 +2416,936 @@
     <frame>
       <class>java.awt.EventQueue</class>
       <method>dispatchEvent</method>
-      <line>697</line>
+      <line>726</line>
       <file>${java.home}lib/rt.jar</file>
     </frame>
     <frame>
       <class>org.netbeans.core.TimableEventQueue</class>
       <method>dispatchEvent</method>
-      <line>158</line>
+      <line>159</line>
       <file>${netbeans.home}modules/org-netbeans-core.jar</file>
     </frame>
     <frame>
       <class>java.awt.EventDispatchThread</class>
       <method>pumpOneEventForFilters</method>
-      <line>242</line>
+      <line>201</line>
       <file>${java.home}lib/rt.jar</file>
     </frame>
     <frame>
       <class>java.awt.EventDispatchThread</class>
       <method>pumpEventsForFilter</method>
-      <line>161</line>
+      <line>116</line>
       <file>${java.home}lib/rt.jar</file>
     </frame>
     <frame>
       <class>java.awt.EventDispatchThread</class>
       <method>pumpEventsForHierarchy</method>
-      <line>150</line>
+      <line>105</line>
       <file>${java.home}lib/rt.jar</file>
     </frame>
     <frame>
       <class>java.awt.EventDispatchThread</class>
       <method>pumpEvents</method>
-      <line>146</line>
+      <line>101</line>
       <file>${java.home}lib/rt.jar</file>
     </frame>
     <frame>
       <class>java.awt.EventDispatchThread</class>
       <method>pumpEvents</method>
-      <line>138</line>
+      <line>93</line>
       <file>${java.home}lib/rt.jar</file>
     </frame>
     <frame>
       <class>java.awt.EventDispatchThread</class>
       <method>run</method>
-      <line>91</line>
+      <line>82</line>
       <file>${java.home}lib/rt.jar</file>
     </frame>
   </exception>
 </record>
 <record>
-  <date>2013-04-27T22:03:21</date>
-  <millis>1367114601747</millis>
-  <sequence>171</sequence>
+  <date>2016-08-12T18:23:47</date>
+  <millis>1471040627058</millis>
+  <sequence>2584</sequence>
   <logger>org.netbeans.ui.indexing</logger>
-  <level>INFO</level>
-  <thread>13</thread>
+  <level>800</level>
+  <thread>68</thread>
   <message>INDEXING_FINISHED</message>
   <key>INDEXING_FINISHED</key>
   <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
-  <param>18367</param>
+  <param>15404</param>
+  <param>angular</param>
+  <param>183</param>
+  <param>14</param>
+  <param>TaskListIndexer</param>
+  <param>6</param>
+  <param>1979</param>
+  <param>js</param>
+  <param>183</param>
+  <param>1880</param>
+  <param>php</param>
+  <param>92</param>
+  <param>2393</param>
+  <param>requirejs</param>
+  <param>183</param>
+  <param>100</param>
+  <param>html</param>
+  <param>92</param>
+  <param>53</param>
+  <param>knockoutjs</param>
+  <param>183</param>
+  <param>1</param>
+  <param>TLIndexer</param>
+  <param>368</param>
+  <param>3821</param>
+  <param>org-netbeans-modules-jumpto-file-FileIndexer</param>
+  <param>6</param>
+  <param>9</param>
+</record>
+<record>
+  <date>2016-08-12T18:23:47</date>
+  <millis>1471040627550</millis>
+  <sequence>2585</sequence>
+  <logger>org.netbeans.ui.focus</logger>
+  <level>500</level>
+  <thread>37</thread>
+  <message>LOG_WINDOW_DEACTIVATED</message>
+  <key>LOG_WINDOW_DEACTIVATED</key>
+  <catalog>org.netbeans.core.ui.warmup.Bundle</catalog>
+</record>
+<record>
+  <date>2016-08-12T18:24:50</date>
+  <millis>1471040690885</millis>
+  <sequence>2586</sequence>
+  <logger>org.netbeans.ui.focus</logger>
+  <level>500</level>
+  <thread>99</thread>
+  <message>LOG_WINDOW_ACTIVATED</message>
+  <key>LOG_WINDOW_ACTIVATED</key>
+  <catalog>org.netbeans.core.ui.warmup.Bundle</catalog>
+  <param>48</param>
+</record>
+<record>
+  <date>2016-08-12T18:24:55</date>
+  <millis>1471040695243</millis>
+  <sequence>2588</sequence>
+  <logger>org.netbeans.ui.actions.editor</logger>
+  <level>500</level>
+  <thread>37</thread>
+  <message>UI_ACTION_EDITOR</message>
+  <key>UI_ACTION_EDITOR</key>
+  <catalog>&lt;null&gt;</catalog>
+  <param>java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=TAB,when=1471040695241,modifiers=] on org.openide.text.QuietEditorPane[,0,0,889x572,layout=javax.swing.plaf.basic.BasicTextUI$UpdateHandler,alignmentX=0.0,alignmentY=0.0,border=javax.swing.plaf.basic.BasicBorders$MarginBorder@64ad02b0,flags=296,maximumSize=,minimumSize=,preferredSize=,caretColor=java.awt.Color[r=0,g=0,b=0],disabledTextColor=javax.swing.plaf.ColorUIResource[r=109,g=109,b=109],editable=true,margin=java.awt.Insets[top=0,left=0,bottom=0,right=0],selectedTextColor=javax.swing.plaf.ColorUIResource[r=255,g=255,b=255],selectionColor=javax.swing.plaf.ColorUIResource[r=51,g=153,b=255],kit=org.netbeans.modules.csl.core.CslEditorKit@67cb2b9d,typeHandlers=]</param>
+  <param>java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=TAB,when=1471040695241,modifiers=] on org.openide.text.QuietEditorPane[,0,0,889x572,layout=javax.swing.plaf.basic.BasicTextUI$UpdateHandler,alignmentX=0.0,alignmentY=0.0,border=javax.swing.plaf.basic.BasicBorders$MarginBorder@64ad02b0,flags=296,maximumSize=,minimumSize=,preferredSize=,caretColor=java.awt.Color[r=0,g=0,b=0],disabledTextColor=javax.swing.plaf.ColorUIResource[r=109,g=109,b=109],editable=true,margin=java.awt.Insets[top=0,left=0,bottom=0,right=0],selectedTextColor=javax.swing.plaf.ColorUIResource[r=255,g=255,b=255],selectionColor=javax.swing.plaf.ColorUIResource[r=51,g=153,b=255],kit=org.netbeans.modules.csl.core.CslEditorKit@67cb2b9d,typeHandlers=]</param>
+  <param>org.netbeans.editor.BaseKit$InsertTabAction[insert-tab]</param>
+  <param>org.netbeans.editor.BaseKit$InsertTabAction@1c0a7201</param>
+  <param>insert-tab</param>
+</record>
+<record>
+  <date>2016-08-12T18:28:43</date>
+  <millis>1471040923651</millis>
+  <sequence>2591</sequence>
+  <logger>org.netbeans.ui.actions.editor</logger>
+  <level>500</level>
+  <thread>37</thread>
+  <message>UI_ACTION_EDITOR</message>
+  <key>UI_ACTION_EDITOR</key>
+  <catalog>&lt;null&gt;</catalog>
+  <param>java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Ctrl+Shift+I,when=1471040923215,modifiers=Ctrl+Shift] on org.openide.text.QuietEditorPane[,0,0,889x572,layout=javax.swing.plaf.basic.BasicTextUI$UpdateHandler,alignmentX=0.0,alignmentY=0.0,border=javax.swing.plaf.basic.BasicBorders$MarginBorder@64ad02b0,flags=296,maximumSize=,minimumSize=,preferredSize=,caretColor=java.awt.Color[r=0,g=0,b=0],disabledTextColor=javax.swing.plaf.ColorUIResource[r=109,g=109,b=109],editable=true,margin=java.awt.Insets[top=0,left=0,bottom=0,right=0],selectedTextColor=javax.swing.plaf.ColorUIResource[r=255,g=255,b=255],selectionColor=javax.swing.plaf.ColorUIResource[r=51,g=153,b=255],kit=org.netbeans.modules.csl.core.CslEditorKit@67cb2b9d,typeHandlers=]</param>
+  <param>java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Ctrl+Shift+I,when=1471040923215,modifiers=Ctrl+Shift] on org.openide.text.QuietEditorPane[,0,0,889x572,layout=javax.swing.plaf.basic.BasicTextUI$UpdateHandler,alignmentX=0.0,alignmentY=0.0,border=javax.swing.plaf.basic.BasicBorders$MarginBorder@64ad02b0,flags=296,maximumSize=,minimumSize=,preferredSize=,caretColor=java.awt.Color[r=0,g=0,b=0],disabledTextColor=javax.swing.plaf.ColorUIResource[r=109,g=109,b=109],editable=true,margin=java.awt.Insets[top=0,left=0,bottom=0,right=0],selectedTextColor=javax.swing.plaf.ColorUIResource[r=255,g=255,b=255],selectionColor=javax.swing.plaf.ColorUIResource[r=51,g=153,b=255],kit=org.netbeans.modules.csl.core.CslEditorKit@67cb2b9d,typeHandlers=]</param>
+  <param>org.netbeans.modules.php.editor.actions.FixUsesAction[fix-uses]</param>
+  <param>org.netbeans.modules.php.editor.actions.FixUsesAction@37c995c6</param>
+  <param>fix-uses</param>
+</record>
+<record>
+  <date>2016-08-12T18:28:43</date>
+  <millis>1471040923665</millis>
+  <sequence>2592</sequence>
+  <logger>org.netbeans.ui.indexing</logger>
+  <level>800</level>
+  <thread>103</thread>
+  <message>INDEXING_STARTED</message>
+  <key>INDEXING_STARTED</key>
+  <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
+  <param>296607</param>
+</record>
+<record>
+  <date>2016-08-12T18:28:43</date>
+  <millis>1471040923709</millis>
+  <sequence>2593</sequence>
+  <logger>org.netbeans.ui.indexing</logger>
+  <level>800</level>
+  <thread>103</thread>
+  <message>INDEXING_FINISHED</message>
+  <key>INDEXING_FINISHED</key>
+  <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
+  <param>43</param>
   <param>TaskListIndexer</param>
   <param>1</param>
-  <param>6154</param>
-  <param>javascript</param>
-  <param>4</param>
-  <param>636</param>
+  <param>1</param>
+  <param>php</param>
+  <param>1</param>
+  <param>0</param>
+  <param>html</param>
+  <param>1</param>
+  <param>2</param>
   <param>TLIndexer</param>
-  <param>4</param>
-  <param>472</param>
+  <param>2</param>
+  <param>0</param>
   <param>org-netbeans-modules-jumpto-file-FileIndexer</param>
   <param>1</param>
-  <param>81</param>
+  <param>5</param>
+</record>
+<record>
+  <date>2016-08-12T18:28:43</date>
+  <millis>1471040923775</millis>
+  <sequence>2594</sequence>
+  <logger>org.netbeans.ui.actions</logger>
+  <level>400</level>
+  <thread>37</thread>
+  <message>UI_ACTION_KEY_PRESS</message>
+  <key>UI_ACTION_KEY_PRESS</key>
+  <catalog>&lt;null&gt;</catalog>
+  <param>ctrl pressed S</param>
+  <param>ctrl pressed S</param>
+  <param>org.openide.awt.GeneralAction$DelegateAction@3665307c[key=null]</param>
+  <param>org.openide.awt.GeneralAction$DelegateAction</param>
+  <param>&amp;Save</param>
+</record>
+<record>
+  <date>2016-08-12T18:28:43</date>
+  <millis>1471040923831</millis>
+  <sequence>2595</sequence>
+  <logger>org.netbeans.ui.indexing</logger>
+  <level>800</level>
+  <thread>109</thread>
+  <message>INDEXING_STARTED</message>
+  <key>INDEXING_STARTED</key>
+  <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
+  <param>122</param>
+</record>
+<record>
+  <date>2016-08-12T18:28:44</date>
+  <millis>1471040924121</millis>
+  <sequence>2608</sequence>
+  <logger>org.netbeans.ui.indexing</logger>
+  <level>800</level>
+  <thread>109</thread>
+  <message>INDEXING_FINISHED</message>
+  <key>INDEXING_FINISHED</key>
+  <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
+  <param>290</param>
+  <param>TaskListIndexer</param>
+  <param>1</param>
+  <param>6</param>
+  <param>php</param>
+  <param>1</param>
+  <param>1</param>
+  <param>html</param>
+  <param>1</param>
+  <param>1</param>
+  <param>TLIndexer</param>
+  <param>2</param>
+  <param>9</param>
+  <param>org-netbeans-modules-jumpto-file-FileIndexer</param>
+  <param>1</param>
+  <param>0</param>
+</record>
+<record>
+  <date>2016-08-12T18:29:04</date>
+  <millis>1471040944341</millis>
+  <sequence>2609</sequence>
+  <logger>org.netbeans.ui.focus</logger>
+  <level>500</level>
+  <thread>37</thread>
+  <message>LOG_WINDOW_DEACTIVATED</message>
+  <key>LOG_WINDOW_DEACTIVATED</key>
+  <catalog>org.netbeans.core.ui.warmup.Bundle</catalog>
+</record>
+<record>
+  <date>2016-08-12T18:32:16</date>
+  <millis>1471041136691</millis>
+  <sequence>2610</sequence>
+  <logger>org.netbeans.ui.focus</logger>
+  <level>500</level>
+  <thread>115</thread>
+  <message>LOG_WINDOW_ACTIVATED</message>
+  <key>LOG_WINDOW_ACTIVATED</key>
+  <catalog>org.netbeans.core.ui.warmup.Bundle</catalog>
+  <param>8</param>
+</record>
+<record>
+  <date>2016-08-12T18:32:19</date>
+  <millis>1471041139432</millis>
+  <sequence>2613</sequence>
+  <logger>org.netbeans.ui.actions</logger>
+  <level>400</level>
+  <thread>37</thread>
+  <message>UI_ACTION_BUTTON_PRESS</message>
+  <key>UI_ACTION_BUTTON_PRESS</key>
+  <catalog>org.openide.awt.Bundle</catalog>
+  <param>javax.swing.JMenuItem[Delete]</param>
+  <param>javax.swing.JMenuItem</param>
+  <param>org.netbeans.modules.project.ui.actions.ProjectAction[Delete]</param>
+  <param>org.netbeans.modules.project.ui.actions.ProjectAction</param>
+  <param>Delete</param>
+</record>
+<record>
+  <date>2016-08-12T18:32:19</date>
+  <millis>1471041139432</millis>
+  <sequence>2614</sequence>
+  <logger>org.netbeans.ui.actions</logger>
+  <level>500</level>
+  <thread>37</thread>
+  <message>UI_ACTION_BUTTON_PRESS</message>
+  <key>UI_ACTION_BUTTON_PRESS</key>
+  <catalog>&lt;null&gt;</catalog>
+  <param>javax.swing.JMenuItem[Delete]</param>
+  <param>javax.swing.JMenuItem</param>
+  <param>org.netbeans.modules.project.ui.actions.ProjectAction[Delete]</param>
+  <param>org.netbeans.modules.project.ui.actions.ProjectAction</param>
+  <param>Delete</param>
+</record>
+<record>
+  <date>2016-08-12T18:32:19</date>
+  <millis>1471041139442</millis>
+  <sequence>2615</sequence>
+  <logger>org.netbeans.ui.actions</logger>
+  <level>500</level>
+  <thread>37</thread>
+  <message>PROJECT_ACTION</message>
+  <key>PROJECT_ACTION</key>
+  <catalog>&lt;null&gt;</catalog>
+  <param>org.netbeans.modules.project.ui.actions.ProjectAction</param>
+  <param>org.netbeans.modules.php.project.PhpProject</param>
+  <param>Delete</param>
+</record>
+<record>
+  <date>2016-08-12T18:32:21</date>
+  <millis>1471041141298</millis>
+  <sequence>2617</sequence>
+  <logger>org.netbeans.ui.projects</logger>
+  <level>700</level>
+  <thread>116</thread>
+  <message>UI_CLOSED_PROJECTS</message>
+  <key>UI_CLOSED_PROJECTS</key>
+  <catalog>org.netbeans.modules.project.ui.Bundle</catalog>
+  <param>org.netbeans.modules.php.project.PhpProject</param>
+  <param>PhpProject</param>
+  <param>1</param>
+</record>
+<record>
+  <date>2016-08-12T18:32:21</date>
+  <millis>1471041141299</millis>
+  <sequence>2618</sequence>
+  <logger>org.netbeans.ui.metrics.projects</logger>
+  <level>800</level>
+  <thread>116</thread>
+  <message>USG_PROJECT_CLOSE</message>
+  <param>org.netbeans.modules.php.project.PhpProject</param>
+</record>
+<record>
+  <date>2016-08-12T18:32:21</date>
+  <millis>1471041141302</millis>
+  <sequence>2619</sequence>
+  <logger>org.netbeans.ui.indexing</logger>
+  <level>800</level>
+  <thread>115</thread>
+  <message>INDEXING_STARTED</message>
+  <key>INDEXING_STARTED</key>
+  <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
+  <param>217181</param>
+</record>
+<record>
+  <date>2016-08-12T18:32:21</date>
+  <millis>1471041141563</millis>
+  <sequence>2737</sequence>
+  <logger>org.netbeans.ui.indexing</logger>
+  <level>800</level>
+  <thread>115</thread>
+  <message>INDEXING_FINISHED</message>
+  <key>INDEXING_FINISHED</key>
+  <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
+  <param>252</param>
+  <param>TaskListIndexer</param>
+  <param>1</param>
+  <param>79</param>
+  <param>org-netbeans-modules-jumpto-file-FileIndexer</param>
+  <param>1</param>
+  <param>2</param>
+</record>
+<record>
+  <date>2016-08-12T18:32:21</date>
+  <millis>1471041141563</millis>
+  <sequence>2738</sequence>
+  <logger>org.netbeans.ui.indexing</logger>
+  <level>800</level>
+  <thread>115</thread>
+  <message>INDEXING_STARTED</message>
+  <key>INDEXING_STARTED</key>
+  <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
+  <param>0</param>
+</record>
+<record>
+  <date>2016-08-12T18:32:21</date>
+  <millis>1471041141578</millis>
+  <sequence>2745</sequence>
+  <logger>org.netbeans.ui.indexing</logger>
+  <level>800</level>
+  <thread>115</thread>
+  <message>INDEXING_FINISHED</message>
+  <key>INDEXING_FINISHED</key>
+  <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
+  <param>15</param>
+</record>
+<record>
+  <date>2016-08-12T18:32:21</date>
+  <millis>1471041141579</millis>
+  <sequence>2746</sequence>
+  <logger>org.netbeans.ui.indexing</logger>
+  <level>800</level>
+  <thread>115</thread>
+  <message>INDEXING_STARTED</message>
+  <key>INDEXING_STARTED</key>
+  <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
+  <param>1</param>
+</record>
+<record>
+  <date>2016-08-12T18:32:21</date>
+  <millis>1471041141793</millis>
+  <sequence>2747</sequence>
+  <logger>org.netbeans.ui.indexing</logger>
+  <level>800</level>
+  <thread>115</thread>
+  <message>INDEXING_FINISHED</message>
+  <key>INDEXING_FINISHED</key>
+  <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
+  <param>211</param>
+</record>
+<record>
+  <date>2016-08-12T18:32:22</date>
+  <millis>1471041142809</millis>
+  <sequence>2752</sequence>
+  <logger>org.netbeans.core.windows.persistence</logger>
+  <level>800</level>
+  <thread>37</thread>
+  <message>[PersistenceManager.getTopComponentForID] Problem when deserializing TopComponent for tcID:'CssPreviewTC'. Reason: org.netbeans.modules.css.visual.ui.preview.CssPreviewTopComponent$ResolvableHelper starting from SystemClassLoader[395 modules] with possible defining loaders null and declared parents [org.netbeans.MainImpl$BootClassLoader@377dca04, ModuleCL@55099994[org.netbeans.api.annotations.common], ModuleCL@60710f01[org.openide.awt], ModuleCL@2716557c[org.netbeans.api.progress], ModuleCL@425d6c48[org.netbeans.api.progress.nb], ModuleCL@41b34904[org.openide.dialogs], ModuleCL@2168e8ef[org.openide.nodes], ModuleCL@7407913e[org.openide.windows], ModuleCL@6d9bc165[org.netbeans.modules.editor.mimelookup], ModuleCL@32d88053[org.openide.text], ...375 more]</message>
+  <exception>
+    <message>java.lang.ClassNotFoundException: org.netbeans.modules.css.visual.ui.preview.CssPreviewTopComponent$ResolvableHelper starting from SystemClassLoader[395 modules] with possible defining loaders null and declared parents [org.netbeans.MainImpl$BootClassLoader@377dca04, ModuleCL@55099994[org.netbeans.api.annotations.common], ModuleCL@60710f01[org.openide.awt], ModuleCL@2716557c[org.netbeans.api.progress], ModuleCL@425d6c48[org.netbeans.api.progress.nb], ModuleCL@41b34904[org.openide.dialogs], ModuleCL@2168e8ef[org.openide.nodes], ModuleCL@7407913e[org.openide.windows], ModuleCL@6d9bc165[org.netbeans.modules.editor.mimelookup], ModuleCL@32d88053[org.openide.text], ...375 more]</message>
+    <frame>
+      <class>org.netbeans.ProxyClassLoader</class>
+      <method>loadClass</method>
+      <line>224</line>
+      <file>${netbeans.home}lib/boot.jar</file>
+    </frame>
+    <frame>
+      <class>org.netbeans.ModuleManager$SystemClassLoader</class>
+      <method>loadClass</method>
+      <line>766</line>
+      <file>${netbeans.home}lib/boot.jar</file>
+    </frame>
+    <frame>
+      <class>java.lang.ClassLoader</class>
+      <method>loadClass</method>
+      <line>357</line>
+      <file>${java.home}lib/rt.jar</file>
+    </frame>
+    <frame>
+      <class>java.lang.Class</class>
+      <method>forName0</method>
+      <file>${java.home}lib/rt.jar</file>
+    </frame>
+    <frame>
+      <class>java.lang.Class</class>
+      <method>forName</method>
+      <line>348</line>
+      <file>${java.home}lib/rt.jar</file>
+    </frame>
+    <frame>
+      <class>org.netbeans.modules.settings.convertors.XMLSettingsSupport$SpecialObjectInputStream</class>
+      <method>resolveClass</method>
+      <line>229</line>
+      <file>${netbeans.home}modules/org-netbeans-modules-settings.jar</file>
+    </frame>
+    <frame>
+      <class>java.io.ObjectInputStream</class>
+      <method>readNonProxyDesc</method>
+      <line>1620</line>
+      <file>${java.home}lib/rt.jar</file>
+    </frame>
+    <frame>
+      <class>java.io.ObjectInputStream</class>
+      <method>readClassDesc</method>
+      <line>1521</line>
+      <file>${java.home}lib/rt.jar</file>
+    </frame>
+    <frame>
+      <class>java.io.ObjectInputStream</class>
+      <method>readOrdinaryObject</method>
+      <line>1781</line>
+      <file>${java.home}lib/rt.jar</file>
+    </frame>
+    <frame>
+      <class>java.io.ObjectInputStream</class>
+      <method>readObject0</method>
+      <line>1353</line>
+      <file>${java.home}lib/rt.jar</file>
+    </frame>
+    <frame>
+      <class>java.io.ObjectInputStream</class>
+      <method>readObject</method>
+      <line>373</line>
+      <file>${java.home}lib/rt.jar</file>
+    </frame>
+    <frame>
+      <class>org.netbeans.modules.settings.convertors.XMLSettingsSupport$SettingsRecognizer</class>
+      <method>readSerial</method>
+      <line>571</line>
+      <file>${netbeans.home}modules/org-netbeans-modules-settings.jar</file>
+    </frame>
+    <frame>
+      <class>org.netbeans.modules.settings.convertors.XMLSettingsSupport$SettingsRecognizer</class>
+      <method>instanceCreate</method>
+      <line>603</line>
+      <file>${netbeans.home}modules/org-netbeans-modules-settings.jar</file>
+    </frame>
+    <frame>
+      <class>org.netbeans.modules.settings.convertors.SerialDataConvertor$SettingsInstance</class>
+      <method>instanceCreate</method>
+      <line>426</line>
+      <file>${netbeans.home}modules/org-netbeans-modules-settings.jar</file>
+    </frame>
+    <frame>
+      <class>org.netbeans.core.windows.persistence.PersistenceManager</class>
+      <method>getTopComponentPersistentForID</method>
+      <line>571</line>
+      <file>${netbeans.home}modules/org-netbeans-core-windows.jar</file>
+    </frame>
+    <frame>
+      <class>org.netbeans.core.windows.persistence.PersistenceManager</class>
+      <method>getTopComponentForID</method>
+      <line>681</line>
+      <file>${netbeans.home}modules/org-netbeans-core-windows.jar</file>
+    </frame>
+    <frame>
+      <class>org.netbeans.core.windows.PersistenceHandler</class>
+      <method>getTopComponentForID</method>
+      <line>478</line>
+      <file>${netbeans.home}modules/org-netbeans-core-windows.jar</file>
+    </frame>
+    <frame>
+      <class>org.netbeans.core.windows.WindowManagerImpl</class>
+      <method>getTopComponentForID</method>
+      <line>962</line>
+      <file>${netbeans.home}modules/org-netbeans-core-windows.jar</file>
+    </frame>
+    <frame>
+      <class>org.netbeans.core.windows.model.TopComponentSubModel</class>
+      <method>getTopComponent</method>
+      <line>378</line>
+      <file>${netbeans.home}modules/org-netbeans-core-windows.jar</file>
+    </frame>
+    <frame>
+      <class>org.netbeans.core.windows.model.TopComponentSubModel</class>
+      <method>getTopComponents</method>
+      <line>90</line>
+      <file>${netbeans.home}modules/org-netbeans-core-windows.jar</file>
+    </frame>
+    <frame>
+      <class>org.netbeans.core.windows.model.DefaultModeModel</class>
+      <method>getTopComponents</method>
+      <line>356</line>
+      <file>${netbeans.home}modules/org-netbeans-core-windows.jar</file>
+    </frame>
+    <frame>
+      <class>org.netbeans.core.windows.model.DefaultModel</class>
+      <method>getModeTopComponents</method>
+      <line>944</line>
+      <file>${netbeans.home}modules/org-netbeans-core-windows.jar</file>
+    </frame>
+    <frame>
+      <class>org.netbeans.core.windows.Central</class>
+      <method>getModeTopComponents</method>
+      <line>1577</line>
+      <file>${netbeans.home}modules/org-netbeans-core-windows.jar</file>
+    </frame>
+    <frame>
+      <class>org.netbeans.core.windows.ModeImpl</class>
+      <method>getTopComponents</method>
+      <line>220</line>
+      <file>${netbeans.home}modules/org-netbeans-core-windows.jar</file>
+    </frame>
+    <frame>
+      <class>org.netbeans.core.windows.model.DefaultModel</class>
+      <method>isModePermanent</method>
+      <line>874</line>
+      <file>${netbeans.home}modules/org-netbeans-core-windows.jar</file>
+    </frame>
+    <frame>
+      <class>org.netbeans.core.windows.Central</class>
+      <method>isModePermanent</method>
+      <line>1556</line>
+      <file>${netbeans.home}modules/org-netbeans-core-windows.jar</file>
+    </frame>
+    <frame>
+      <class>org.netbeans.core.windows.ModeImpl</class>
+      <method>isPermanent</method>
+      <line>422</line>
+      <file>${netbeans.home}modules/org-netbeans-core-windows.jar</file>
+    </frame>
+    <frame>
+      <class>org.netbeans.core.windows.PersistenceHandler</class>
+      <method>getConfigFromMode</method>
+      <line>730</line>
+      <file>${netbeans.home}modules/org-netbeans-core-windows.jar</file>
+    </frame>
+    <frame>
+      <class>org.netbeans.core.windows.PersistenceHandler</class>
+      <method>getConfig</method>
+      <line>626</line>
+      <file>${netbeans.home}modules/org-netbeans-core-windows.jar</file>
+    </frame>
+    <frame>
+      <class>org.netbeans.core.windows.PersistenceHandler</class>
+      <method>save</method>
+      <line>314</line>
+      <file>${netbeans.home}modules/org-netbeans-core-windows.jar</file>
+    </frame>
+    <frame>
+      <class>org.netbeans.core.windows.WindowSystemImpl</class>
+      <method>save</method>
+      <line>93</line>
+      <file>${netbeans.home}modules/org-netbeans-core-windows.jar</file>
+    </frame>
+    <frame>
+      <class>org.netbeans.core.NbLifeExit</class>
+      <method>doStopInfra</method>
+      <line>150</line>
+      <file>${netbeans.home}modules/org-netbeans-core.jar</file>
+    </frame>
+    <frame>
+      <class>org.netbeans.core.NbLifeExit</class>
+      <method>run</method>
+      <line>97</line>
+      <file>${netbeans.home}modules/org-netbeans-core.jar</file>
+    </frame>
+    <frame>
+      <class>org.netbeans.core.startup.ModuleSystem$2</class>
+      <method>run</method>
+      <line>343</line>
+      <file>${netbeans.home}core/core.jar</file>
+    </frame>
+    <frame>
+      <class>org.netbeans.ModuleManager</class>
+      <method>shutDownAsync</method>
+      <line>2180</line>
+      <file>${netbeans.home}lib/boot.jar</file>
+    </frame>
+    <frame>
+      <class>org.netbeans.core.startup.ModuleSystem</class>
+      <method>shutDownAsync</method>
+      <line>349</line>
+      <file>${netbeans.home}core/core.jar</file>
+    </frame>
+    <frame>
+      <class>org.netbeans.core.NbLifeExit</class>
+      <method>doExit</method>
+      <line>137</line>
+      <file>${netbeans.home}modules/org-netbeans-core.jar</file>
+    </frame>
+    <frame>
+      <class>org.netbeans.core.NbLifeExit</class>
+      <method>run</method>
+      <line>94</line>
+      <file>${netbeans.home}modules/org-netbeans-core.jar</file>
+    </frame>
+    <frame>
+      <class>org.netbeans.modules.openide.util.NbMutexEventProvider$Event</class>
+      <method>doEvent</method>
+      <line>118</line>
+      <file>${netbeans.home}lib/org-openide-util-ui.jar</file>
+    </frame>
+    <frame>
+      <class>org.netbeans.modules.openide.util.NbMutexEventProvider$Event</class>
+      <method>readAccess</method>
+      <line>93</line>
+      <file>${netbeans.home}lib/org-openide-util-ui.jar</file>
+    </frame>
+    <frame>
+      <class>org.netbeans.modules.openide.util.LazyMutexImplementation</class>
+      <method>readAccess</method>
+      <line>89</line>
+      <file>${netbeans.home}lib/org-openide-util.jar</file>
+    </frame>
+    <frame>
+      <class>org.openide.util.Mutex</class>
+      <method>readAccess</method>
+      <line>260</line>
+      <file>${netbeans.home}lib/org-openide-util.jar</file>
+    </frame>
+    <frame>
+      <class>org.netbeans.core.NbLifecycleManager</class>
+      <method>exit</method>
+      <line>213</line>
+      <file>${netbeans.home}modules/org-netbeans-core.jar</file>
+    </frame>
+    <frame>
+      <class>org.netbeans.core.NbLifecycleManager</class>
+      <method>exit</method>
+      <line>119</line>
+      <file>${netbeans.home}modules/org-netbeans-core.jar</file>
+    </frame>
+    <frame>
+      <class>org.netbeans.core.windows.view.ui.MainWindow$9</class>
+      <method>windowClosing</method>
+      <line>546</line>
+      <file>${netbeans.home}modules/org-netbeans-core-windows.jar</file>
+    </frame>
+    <frame>
+      <class>java.awt.AWTEventMulticaster</class>
+      <method>windowClosing</method>
+      <line>349</line>
+      <file>${java.home}lib/rt.jar</file>
+    </frame>
+    <frame>
+      <class>java.awt.AWTEventMulticaster</class>
+      <method>windowClosing</method>
+      <line>349</line>
+      <file>${java.home}lib/rt.jar</file>
+    </frame>
+    <frame>
+      <class>java.awt.Window</class>
+      <method>processWindowEvent</method>
+      <line>2054</line>
+      <file>${java.home}lib/rt.jar</file>
+    </frame>
+    <frame>
+      <class>javax.swing.JFrame</class>
+      <method>processWindowEvent</method>
+      <line>305</line>
+      <file>${java.home}lib/rt.jar</file>
+    </frame>
+    <frame>
+      <class>java.awt.Window</class>
+      <method>processEvent</method>
+      <line>2013</line>
+      <file>${java.home}lib/rt.jar</file>
+    </frame>
+    <frame>
+      <class>java.awt.Component</class>
+      <method>dispatchEventImpl</method>
+      <line>4889</line>
+      <file>${java.home}lib/rt.jar</file>
+    </frame>
+    <frame>
+      <class>java.awt.Container</class>
+      <method>dispatchEventImpl</method>
+      <line>2294</line>
+      <file>${java.home}lib/rt.jar</file>
+    </frame>
+    <frame>
+      <class>java.awt.Window</class>
+      <method>dispatchEventImpl</method>
+      <line>2746</line>
+      <file>${java.home}lib/rt.jar</file>
+    </frame>
+    <frame>
+      <class>java.awt.Component</class>
+      <method>dispatchEvent</method>
+      <line>4711</line>
+      <file>${java.home}lib/rt.jar</file>
+    </frame>
+    <frame>
+      <class>java.awt.EventQueue</class>
+      <method>dispatchEventImpl</method>
+      <line>758</line>
+      <file>${java.home}lib/rt.jar</file>
+    </frame>
+    <frame>
+      <class>java.awt.EventQueue</class>
+      <method>access$500</method>
+      <line>97</line>
+      <file>${java.home}lib/rt.jar</file>
+    </frame>
+    <frame>
+      <class>java.awt.EventQueue$3</class>
+      <method>run</method>
+      <line>709</line>
+      <file>${java.home}lib/rt.jar</file>
+    </frame>
+    <frame>
+      <class>java.awt.EventQueue$3</class>
+      <method>run</method>
+      <line>703</line>
+      <file>${java.home}lib/rt.jar</file>
+    </frame>
+    <frame>
+      <class>java.security.AccessController</class>
+      <method>doPrivileged</method>
+      <file>${java.home}lib/rt.jar</file>
+    </frame>
+    <frame>
+      <class>java.security.ProtectionDomain$JavaSecurityAccessImpl</class>
+      <method>doIntersectionPrivilege</method>
+      <line>76</line>
+      <file>${java.home}lib/rt.jar</file>
+    </frame>
+    <frame>
+      <class>java.security.ProtectionDomain$JavaSecurityAccessImpl</class>
+      <method>doIntersectionPrivilege</method>
+      <line>86</line>
+      <file>${java.home}lib/rt.jar</file>
+    </frame>
+    <frame>
+      <class>java.awt.EventQueue$4</class>
+      <method>run</method>
+      <line>731</line>
+      <file>${java.home}lib/rt.jar</file>
+    </frame>
+    <frame>
+      <class>java.awt.EventQueue$4</class>
+      <method>run</method>
+      <line>729</line>
+      <file>${java.home}lib/rt.jar</file>
+    </frame>
+    <frame>
+      <class>java.security.AccessController</class>
+      <method>doPrivileged</method>
+      <file>${java.home}lib/rt.jar</file>
+    </frame>
+    <frame>
+      <class>java.security.ProtectionDomain$JavaSecurityAccessImpl</class>
+      <method>doIntersectionPrivilege</method>
+      <line>76</line>
+      <file>${java.home}lib/rt.jar</file>
+    </frame>
+    <frame>
+      <class>java.awt.EventQueue</class>
+      <method>dispatchEvent</method>
+      <line>728</line>
+      <file>${java.home}lib/rt.jar</file>
+    </frame>
+    <frame>
+      <class>org.netbeans.core.TimableEventQueue</class>
+      <method>dispatchEvent</method>
+      <line>159</line>
+      <file>${netbeans.home}modules/org-netbeans-core.jar</file>
+    </frame>
+    <frame>
+      <class>java.awt.EventDispatchThread</class>
+      <method>pumpOneEventForFilters</method>
+      <line>201</line>
+      <file>${java.home}lib/rt.jar</file>
+    </frame>
+    <frame>
+      <class>java.awt.EventDispatchThread</class>
+      <method>pumpEventsForFilter</method>
+      <line>116</line>
+      <file>${java.home}lib/rt.jar</file>
+    </frame>
+    <frame>
+      <class>java.awt.EventDispatchThread</class>
+      <method>pumpEventsForHierarchy</method>
+      <line>105</line>
+      <file>${java.home}lib/rt.jar</file>
+    </frame>
+    <frame>
+      <class>java.awt.EventDispatchThread</class>
+      <method>pumpEvents</method>
+      <line>101</line>
+      <file>${java.home}lib/rt.jar</file>
+    </frame>
+    <frame>
+      <class>java.awt.EventDispatchThread</class>
+      <method>pumpEvents</method>
+      <line>93</line>
+      <file>${java.home}lib/rt.jar</file>
+    </frame>
+    <frame>
+      <class>java.awt.EventDispatchThread</class>
+      <method>run</method>
+      <line>82</line>
+      <file>${java.home}lib/rt.jar</file>
+    </frame>
+  </exception>
+  <exception>
+   <message>java.lang.ClassNotFoundException: org.netbeans.modules.css.visual.ui.preview.CssPreviewTopComponent$ResolvableHelper</message>
+    <frame>
+      <class>java.net.URLClassLoader</class>
+      <method>findClass</method>
+      <line>381</line>
+      <file>${java.home}lib/rt.jar</file>
+    </frame>
+    <frame>
+      <class>java.lang.ClassLoader</class>
+      <method>loadClass</method>
+      <line>424</line>
+      <file>${java.home}lib/rt.jar</file>
+    </frame>
+    <frame>
+      <class>sun.misc.Launcher$AppClassLoader</class>
+      <method>loadClass</method>
+      <line>331</line>
+      <file>${java.home}lib/rt.jar</file>
+    </frame>
+    <frame>
+      <class>java.lang.ClassLoader</class>
+      <method>loadClass</method>
+      <line>357</line>
+      <file>${java.home}lib/rt.jar</file>
+    </frame>
+    <frame>
+      <class>org.netbeans.ProxyClassLoader</class>
+      <method>loadClass</method>
+      <line>222</line>
+      <file>${netbeans.home}lib/boot.jar</file>
+    </frame>
+   <more>72</more>
+  </exception>
+</record>
+<record>
+  <date>2016-08-12T18:32:24</date>
+  <millis>1471041144113</millis>
+  <sequence>2757</sequence>
+  <logger>org.netbeans.ui.metrics.editor</logger>
+  <level>800</level>
+  <thread>123</thread>
+  <message>USG_EDITOR_MIME_TYPE</message>
+  <param>text/x-php5</param>
+  <param>1</param>
+</record>
+<record>
+  <date>2016-08-12T18:32:24</date>
+  <millis>1471041144115</millis>
+  <sequence>2758</sequence>
+  <logger>org.netbeans.ui.indexing</logger>
+  <level>800</level>
+  <thread>122</thread>
+  <message>INDEXING_STARTED</message>
+  <key>INDEXING_STARTED</key>
+  <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
+  <param>2322</param>
+</record>
+<record>
+  <date>2016-08-12T18:32:24</date>
+  <millis>1471041144128</millis>
+  <sequence>2759</sequence>
+  <logger>org.netbeans.ui.indexing</logger>
+  <level>800</level>
+  <thread>122</thread>
+  <message>INDEXING_FINISHED</message>
+  <key>INDEXING_FINISHED</key>
+  <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
+  <param>12</param>
+</record>
+<record>
+  <date>2016-08-12T18:32:24</date>
+  <millis>1471041144196</millis>
+  <sequence>2763</sequence>
+  <logger>org.netbeans.ui.focus</logger>
+  <level>500</level>
+  <thread>37</thread>
+  <message>LOG_WINDOW_DEACTIVATED</message>
+  <key>LOG_WINDOW_DEACTIVATED</key>
+  <catalog>org.netbeans.core.ui.warmup.Bundle</catalog>
 </record>

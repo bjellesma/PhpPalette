@@ -8,7 +8,7 @@
         <attr name="WinSys-TCRef-Order" stringvalue="CommonPalette"/>
     </fileobject>
     <fileobject name="code_evaluator">
-        <attr name="WinSys-TCRef-Order" stringvalue="evaluator"/>
+        <attr name="WinSys-TCRef-Order" stringvalue="evaluator/evaluatorPane"/>
     </fileobject>
     <fileobject name="commonpalette">
         <attr name="_palette_visible_LearningPalette" boolvalue="true"/>
@@ -19,13 +19,16 @@
         <attr name="WinSys-TCRef-Order" stringvalue="QueryTopComponent/Welcome/dbgInstances/DisassemblerWindow/CoverageReportTopComponent/MultiView-php#002Esou6DA18E8Fxt#002Ehistory#007C_1"/>
     </fileobject>
     <fileobject name="explorer">
-        <attr name="WinSys-TCRef-Order" stringvalue="projectTabLogical_tc/projectTab_tc/services/favorites/debugging/profiler_cp"/>
+        <attr name="WinSys-TCRef-Order" stringvalue="projectTabLogical_tc/projectTab_tc/services/favorites/debugging/profiler_cp/debuggingView/DashboardTopComponent"/>
     </fileobject>
     <fileobject name="navigator">
-        <attr name="WinSys-TCRef-Order" stringvalue="navigatorTC/PhpHierarchyTopComponent"/>
+        <attr name="WinSys-TCRef-Order" stringvalue="navigatorTC/PhpHierarchyTopComponent/DomTC"/>
     </fileobject>
     <fileobject name="output">
-        <attr name="WinSys-TCRef-Order" stringvalue="TaskListTopComponent/watchesView/localsView/resultsView/callstackView/breakpointsView/sources/sessionsView/threadsView/bookmarks/versioning_output/search-results/gsf-testrunner-results/refactoring-preview/find-usages/StyleBuilderTC/TerminalContainerTopComponent/output/svnversioning/hgversioningTC/GitVersioning/GitRepositories/ReporterResultTopComponent/profiler_pp/eventsView/profiler_to/AnalysisResultTopComponent/classes/MemoryWindow/RegistersWindow/DocViewTopComponent/EvaluationWindow/threads/watches/sessions/locals"/>
+        <attr name="WinSys-TCRef-Order" stringvalue="TaskListTopComponent/watchesView/localsView/resultsView/callstackView/breakpointsView/sources/sessionsView/threadsView/bookmarks/versioning_output/search-results/gsf-testrunner-results/refactoring-preview/find-usages/StyleBuilderTC/TerminalContainerTopComponent/output/svnversioning/hgversioningTC/GitVersioning/GitRepositories/ReporterResultTopComponent/profiler_pp/eventsView/profiler_to/AnalysisResultTopComponent/classes/MemoryWindow/RegistersWindow/DocViewTopComponent/EvaluationWindow/threads/watches/sessions/locals/NotificationCenterTopComponent"/>
+    </fileobject>
+    <fileobject name="properties">
+        <attr name="WinSys-TCRef-Order" stringvalue="KnockoutTC/CssStylesTC"/>
     </fileobject>
     <fileobject name="rightSlidingSide">
         <attr name="WinSys-TCRef-Order" stringvalue="properties"/>

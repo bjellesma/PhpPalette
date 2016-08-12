@@ -21,10 +21,6 @@
         <attr name="ergonomicsEnabled" longvalue="1361911235236"/>
         <attr name="ergonomicsUnused" intvalue="0"/>
     </fileobject>
-    <fileobject name="org-netbeans-modules-php-help.xml">
-        <attr name="ergonomicsEnabled" longvalue="1361911235236"/>
-        <attr name="ergonomicsUnused" intvalue="0"/>
-    </fileobject>
     <fileobject name="org-netbeans-modules-php-kit.xml">
         <attr name="ergonomicsEnabled" longvalue="1361911235236"/>
         <attr name="ergonomicsUnused" intvalue="0"/>
